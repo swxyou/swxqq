@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>支付成功</title>
+</head>
+<script src="js/util/jquery-1.12.4.js"></script>
+<script language="javascript" type="text/javascript">
+    var i = 3;
+    var intervalid;
+    intervalid = setInterval("fun()", 1000);
+
+    function fun() {
+        if (i == 0) {
+            window.location.href = "Index.html";
+            clearInterval(intervalid);
+        }
+        document.getElementById("mes").innerHTML = i;
+        i--;
+    }
+</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $.get("Servlet", {"opr": "getOid"}, function (data) {
+            $('#oids').html(data);
+            setPay(data);
+        });
+    })
+
+    function setPay(oid) {
+        var order = {
+            "oId": oid
+        }
+        $.get("controller/setPay.do", order, function (data) {
+
+        });
+    }
+</script>
+<body>
+<div class="zhengti" style="padding-top: 80px">
+    <p align="center"><img src="images/img_ZhiFu/对勾.png "></p>
+    <p align="center" style="color: green;font-size: 40px;">支付成功</p>
+    <div id="errorfrm">
+        <div id="error" align="center">
+            <p style="font-size: 20px">支付成功 <span id="mes" style="font-weight: bold;color: #e70f47">3</span> 秒钟后返回首页！
+            </p>
+            <p style="font-size: 20px">您的订单号为<a id="oids"></a>，详细信息将会发送您的手机，请注意查收！</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

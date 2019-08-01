@@ -1,0 +1,403 @@
+@charset "UTF-8";
+*, body {
+    margin: 0
+}
+
+* {
+    padding: 0
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #f8f8f8
+}
+
+a {
+    text-decoration: none;
+    z-index: 9
+}
+
+a:focus {
+    outline: 0
+}
+
+.wrapper {
+    width: 712.84px;
+    margin: 0 auto
+}
+
+#crsrecmd {
+    position: relative;
+    width: 710px;
+    background-color: #fff;
+    margin: 20px auto 0;
+    padding: 20px 0 0
+}
+
+#crsrecmd .module-title {
+    padding: 0 20px;
+    border-left: 5px solid #4c5a65;
+    color: #333;
+    font-size: 16px;
+    position: relative;
+    background: #fff;
+    z-index: 9
+}
+
+#crsrecmd .module-title a.more-right {
+    float: right;
+    font-size: 12px;
+    color: #999;
+    margin-right: 6px;
+    line-height: 24px
+}
+
+#crsrecmd .module-title a.more-right > i {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAkCAYAAAD7PHgWAAAAAklEQVR4AewaftIAAAPgSURBVO3BX2iVdRjA8e/z7jjbGMl7U47B8KI/gzQUTboQpu5EebG3i7lXkThF2PlJsd11UZFzEtFduVGd3wsJ7iLlPe2i3lGGf9a6apEtJoLlRW4y57ronTKabjvnaaHhOJzj0cBNYp+PsASstbWO42xV1TrmichYPp//zhgzTgFhEVlrVwAHASMip4BRbqpX1SbAuq7b4fv+DLcIi6Snp+eR6enpCeC467qtvu9PsUAYhjVxHB8BGqqqqralUqk/mCcsgjAMK+M4HgKsMaaLO7DWtgOHgEpjzKzDIojjuBM4b4zpogxjTBdwHDjIPIf7zFpbCxjXdV+mgLW2I5PJdFLAdd1WwFhraxOUseNC28qxi1deRXgF5UmQBMIZ0O7hZPYLyhCRRuC07/tT3CXf96eCIDglIlsdyhi7eOVDRA4p8htCB8LbKNOqZNed9MPWc62V3IGq1gGj3LtRVa1LUEaVJDpnHtL3hrYcu8xtXetOtqaBQ79e5iPgdf4jVd2fyWT41759+zpYwKGEp0/4Bzb07940mDw6MbTl2GUKnE1mAxF5C5G96/t3r6EEERkD6inCGNPpOM4BEcmLSF5E8txWLyJjCYrY0L97Uy6XeyeXy+3ccaFt4zePd9+giBWrVn08Oxm/r3PaDHRThKoOAJ+EYVjj+/4UBYwxnRQIw7AmjuMmVW13KCI3l9+lcB2leuzSlecpIXdtcjPIRF50+/r+1vUUYYwZB2wcx1nuUhzHRwBrjBl3KGL4ufBNkB8Qfhzenv2KElTlCVVdA/piLi8PU9p+4AVrbTtlWGvbgQbXdTuYV0EJq1NPNaDsfMw8m7l0eGiGIiZ6zv3yaGrtZhz59mxTmKGEvr6+vO/7n87NzXU3Nzc3pVKpr7PZ7AwLhGFYk0wmvwTaqqqq1u7Zs+ca84QSnulvXX09J78LHB5Ohm9QwsbvX6qluvrqmU3BX5QRhmFlHMedgBGR08AoN9Wr6nbAAvuNMbPcItzB06d27dW8WkH7EpJ49+fk0eGNP6WrZ69ONqlqmwgfDDdlT3OPrLW1ItKoqnXME5ExVR0wxoxTQChj3Uk/iepnQD1wA1jJP4QTCVnx2lDT5yPcR8Jd2Np/IDE5d36LOvkGhD8TUjF8ZtvR8yxbtmzZsvtOWCAIgkZV7RWRlnQ6PcADoIIFoiga8TxvUFV7Pc8bjKJohCVWQYEoikY8zxtU1V7P8wajKBphCVVQRBRFI57nDapqr+d5g1EUjbBEHB5wQhFBEDSqaq+ItKTT6QGWkFAgCIJGVe0VkZZ0Oj3AEhMWCIKgUVV7RaQlnU4PsOx/4G/McanBd6fkggAAAABJRU5ErkJggg==);
+    background-position: 0 -23px;
+    width: 12px;
+    height: 12px;
+    display: inline-block
+}
+
+#crsrecmd .module-title a.change-right {
+    font-size: 12px;
+    color: #2DBB55;
+    float: right;
+    margin-right: 6px;
+    line-height: 24px;
+    cursor: pointer
+}
+
+#crsrecmd .module-title a.change-right > i {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAkCAYAAAD7PHgWAAAAAklEQVR4AewaftIAAAPgSURBVO3BX2iVdRjA8e/z7jjbGMl7U47B8KI/gzQUTboQpu5EebG3i7lXkThF2PlJsd11UZFzEtFduVGd3wsJ7iLlPe2i3lGGf9a6apEtJoLlRW4y57ronTKabjvnaaHhOJzj0cBNYp+PsASstbWO42xV1TrmichYPp//zhgzTgFhEVlrVwAHASMip4BRbqpX1SbAuq7b4fv+DLcIi6Snp+eR6enpCeC467qtvu9PsUAYhjVxHB8BGqqqqralUqk/mCcsgjAMK+M4HgKsMaaLO7DWtgOHgEpjzKzDIojjuBM4b4zpogxjTBdwHDjIPIf7zFpbCxjXdV+mgLW2I5PJdFLAdd1WwFhraxOUseNC28qxi1deRXgF5UmQBMIZ0O7hZPYLyhCRRuC07/tT3CXf96eCIDglIlsdyhi7eOVDRA4p8htCB8LbKNOqZNed9MPWc62V3IGq1gGj3LtRVa1LUEaVJDpnHtL3hrYcu8xtXetOtqaBQ79e5iPgdf4jVd2fyWT41759+zpYwKGEp0/4Bzb07940mDw6MbTl2GUKnE1mAxF5C5G96/t3r6EEERkD6inCGNPpOM4BEcmLSF5E8txWLyJjCYrY0L97Uy6XeyeXy+3ccaFt4zePd9+giBWrVn08Oxm/r3PaDHRThKoOAJ+EYVjj+/4UBYwxnRQIw7AmjuMmVW13KCI3l9+lcB2leuzSlecpIXdtcjPIRF50+/r+1vUUYYwZB2wcx1nuUhzHRwBrjBl3KGL4ufBNkB8Qfhzenv2KElTlCVVdA/piLi8PU9p+4AVrbTtlWGvbgQbXdTuYV0EJq1NPNaDsfMw8m7l0eGiGIiZ6zv3yaGrtZhz59mxTmKGEvr6+vO/7n87NzXU3Nzc3pVKpr7PZ7AwLhGFYk0wmvwTaqqqq1u7Zs+ca84QSnulvXX09J78LHB5Ohm9QwsbvX6qluvrqmU3BX5QRhmFlHMedgBGR08AoN9Wr6nbAAvuNMbPcItzB06d27dW8WkH7EpJ49+fk0eGNP6WrZ69ONqlqmwgfDDdlT3OPrLW1ItKoqnXME5ExVR0wxoxTQChj3Uk/iepnQD1wA1jJP4QTCVnx2lDT5yPcR8Jd2Np/IDE5d36LOvkGhD8TUjF8ZtvR8yxbtmzZsvtOWCAIgkZV7RWRlnQ6PcADoIIFoiga8TxvUFV7Pc8bjKJohCVWQYEoikY8zxtU1V7P8wajKBphCVVQRBRFI57nDapqr+d5g1EUjbBEHB5wQhFBEDSqaq+ItKTT6QGWkFAgCIJGVe0VkZZ0Oj3AEhMWCIKgUVV7RaQlnU4PsOx/4G/McanBd6fkggAAAABJRU5ErkJggg==);
+    background-position: 0 0;
+    width: 24px;
+    height: 23px;
+    display: inline-block;
+    vertical-align: bottom
+}
+
+#crsrecmd .loading {
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    padding: 50px
+}
+
+#crsrecmd .module-ctn {
+    margin-bottom: 20px
+}
+
+#crsrecmd .module-ctn + .module-ctn .module-list:after {
+    content: "";
+    width: 660px;
+    position: absolute;
+    left: 50%;
+    height: 1px;
+    line-height: 1px;
+    max-height: 1px;
+    background: #ddd;
+    display: block;
+    margin-left: -330px;
+    margin-top: -60px;
+    top: 0
+}
+
+#crsrecmd .module-ctn + .guesslike-module .module-list:after {
+    margin-left: -341px
+}
+
+#crsrecmd .module-list {
+    width: 660px;
+    position: relative;
+    margin: 20px auto 0;
+    padding-bottom: 18px;
+    font-size: 0
+}
+
+#crsrecmd .module-list > a {
+    position: relative;
+    display: inline-block;
+    width: 205px;
+    height: 167px;
+    margin-left: 21px;
+    overflow: hidden;
+    transition-property: box-shadow;
+    transition-duration: .3s
+}
+
+#crsrecmd .module-list > a:first-child {
+    margin-left: 0
+}
+
+#crsrecmd .module-list > a:hover {
+    box-shadow: #ffab80 0 0 11px
+}
+
+#crsrecmd .module-list > a .thumb-ctn {
+    position: relative;
+    width: 205px;
+    height: 116px;
+    overflow: hidden
+}
+
+#crsrecmd .module-list > a .thumb-ctn > img {
+    display: block;
+    width: 100%;
+    height: 100%
+}
+
+#crsrecmd .module-list > a .thumb-ctn .tag-ctn {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 12px;
+    color: #fff;
+    height: 22px;
+    line-height: 18px;
+    width: 100%;
+    overflow: hidden
+}
+
+#crsrecmd .module-list > a .thumb-ctn .tag-ctn span.tag {
+    padding: 2px 5px;
+    display: inline-block
+}
+
+#crsrecmd .module-list > a .thumb-ctn .title-line1, #crsrecmd .module-list > a .thumb-ctn .title-line2 {
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+    padding: 0 5px;
+    background: #000;
+    background: rgba(0, 28, 46, .6);
+    left: 0;
+    right: 0;
+    font-size: 14px;
+    color: #fff
+}
+
+#crsrecmd .module-list > a .thumb-ctn .title-line1 {
+    height: 29px;
+    line-height: 29px;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+#crsrecmd .module-list > a .thumb-ctn .title-line2 {
+    padding: 8px 5px
+}
+
+#crsrecmd .module-list > a .thumb-ctn .title-line2 > p {
+    height: 36px;
+    line-height: 18px;
+    overflow: hidden
+}
+
+#crsrecmd .module-list > a .pdt-content {
+    position: absolute;
+    bottom: 16px;
+    left: 10px;
+    right: 10px
+}
+
+#crsrecmd .module-list > a .pdt-content span.price {
+    font-size: 12px;
+    color: #f60;
+    line-height: 18px;
+    display: inline-block
+}
+
+#crsrecmd .module-list > a .pdt-content span.price > b {
+    font-size: 20px;
+    margin: 0 4px
+}
+
+#crsrecmd .module-list > a .pdt-content span.info-right {
+    position: absolute;
+    bottom: 2px;
+    right: 0;
+    font-size: 12px;
+    color: #999
+}
+
+#crsrecmd .next-module .module-title span.sub-title {
+    font-size: 12px;
+    color: #666;
+    margin-left: 20px
+}
+
+#crsrecmd .next-module .module-list {
+    margin: 9px auto 0;
+    height: 92px
+}
+
+#crsrecmd .next-module .module-list a {
+    position: relative;
+    display: inline-block;
+    color: #666;
+    width: 132px;
+    text-align: center;
+    padding: 12px 0 9px
+}
+
+#crsrecmd .next-module .module-list a span.name {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 5px;
+    display: block
+}
+
+#crsrecmd .next-module .page {
+    display: none;
+    position: absolute;
+    width: 100%
+}
+
+#crsrecmd .next-module .page.cur {
+    display: block
+}
+
+#crsrecmd .next-module .navi {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 0;
+    bottom: 18px
+}
+
+#crsrecmd .next-module .navi span {
+    width: 20px;
+    height: 3px;
+    display: inline-block;
+    background: #ccc;
+    margin-left: 3px;
+    cursor: pointer;
+    transition-property: background;
+    transition-duration: .3s
+}
+
+#crsrecmd .next-module .navi span:first-child {
+    margin-left: 0
+}
+
+#crsrecmd .next-module .navi span.cur {
+    background: #22c233
+}
+
+#crsrecmd .next-module .icon {
+    width: 34px;
+    height: 34px;
+    display: block;
+    margin: 0 auto
+}
+
+#crsrecmd .interest-module .module-list > a {
+    height: 190px
+}
+
+#crsrecmd .interest-module .module-list > a .tag-bottom {
+    position: absolute;
+    width: 100%;
+    bottom: 5px;
+    font-size: 12px;
+    height: 18px;
+    color: #fff;
+    overflow: hidden;
+    line-height: 18px
+}
+
+#crsrecmd .interest-module .module-list > a .tag-bottom span.tag {
+    background: #000;
+    background: rgba(0, 0, 0, .6);
+    padding: 0 4px;
+    margin-left: 5px;
+    border-radius: 2px;
+    display: inline-block
+}
+
+#crsrecmd .interest-module .module-list > a .interest-title {
+    font-size: 18px;
+    color: #333;
+    line-height: 28px;
+    text-align: center
+}
+
+#crsrecmd .interest-module .module-list > a .interest-subtitle {
+    font-size: 14px;
+    color: #999;
+    line-height: 22px;
+    text-align: center
+}
+
+#crsrecmd .interest-module .module-list > a .interest-subtitle span {
+    color: #f80
+}
+
+#crsrecmd .spsale-module .module-list > a {
+    height: 193px
+}
+
+#crsrecmd .spsale-module .module-list > a span.price {
+    margin-bottom: 11px
+}
+
+#crsrecmd .spsale-module .module-list > a span.info-right {
+    bottom: 26px
+}
+
+#crsrecmd .spsale-module .module-list > a span.discount {
+    background: url(//ssl1.tuniucdn.com/img/2016061310/index_v4/index_icon.png) -54px -36px no-repeat;
+    width: 42px;
+    height: 15px;
+    line-height: 16px;
+    text-align: center;
+    color: #f60;
+    font-family: arial;
+    margin-top: 3px;
+    font-size: 12px;
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: top
+}
+
+#crsrecmd .spsale-module .module-list > a span.time {
+    position: relative;
+    font-size: 12px;
+    color: #999;
+    display: block
+}
+
+#crsrecmd .spsale-module .module-list > a span.time > i {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAkCAYAAAD7PHgWAAAAAklEQVR4AewaftIAAAPgSURBVO3BX2iVdRjA8e/z7jjbGMl7U47B8KI/gzQUTboQpu5EebG3i7lXkThF2PlJsd11UZFzEtFduVGd3wsJ7iLlPe2i3lGGf9a6apEtJoLlRW4y57ronTKabjvnaaHhOJzj0cBNYp+PsASstbWO42xV1TrmichYPp//zhgzTgFhEVlrVwAHASMip4BRbqpX1SbAuq7b4fv+DLcIi6Snp+eR6enpCeC467qtvu9PsUAYhjVxHB8BGqqqqralUqk/mCcsgjAMK+M4HgKsMaaLO7DWtgOHgEpjzKzDIojjuBM4b4zpogxjTBdwHDjIPIf7zFpbCxjXdV+mgLW2I5PJdFLAdd1WwFhraxOUseNC28qxi1deRXgF5UmQBMIZ0O7hZPYLyhCRRuC07/tT3CXf96eCIDglIlsdyhi7eOVDRA4p8htCB8LbKNOqZNed9MPWc62V3IGq1gGj3LtRVa1LUEaVJDpnHtL3hrYcu8xtXetOtqaBQ79e5iPgdf4jVd2fyWT41759+zpYwKGEp0/4Bzb07940mDw6MbTl2GUKnE1mAxF5C5G96/t3r6EEERkD6inCGNPpOM4BEcmLSF5E8txWLyJjCYrY0L97Uy6XeyeXy+3ccaFt4zePd9+giBWrVn08Oxm/r3PaDHRThKoOAJ+EYVjj+/4UBYwxnRQIw7AmjuMmVW13KCI3l9+lcB2leuzSlecpIXdtcjPIRF50+/r+1vUUYYwZB2wcx1nuUhzHRwBrjBl3KGL4ufBNkB8Qfhzenv2KElTlCVVdA/piLi8PU9p+4AVrbTtlWGvbgQbXdTuYV0EJq1NPNaDsfMw8m7l0eGiGIiZ6zv3yaGrtZhz59mxTmKGEvr6+vO/7n87NzXU3Nzc3pVKpr7PZ7AwLhGFYk0wmvwTaqqqq1u7Zs+ca84QSnulvXX09J78LHB5Ohm9QwsbvX6qluvrqmU3BX5QRhmFlHMedgBGR08AoN9Wr6nbAAvuNMbPcItzB06d27dW8WkH7EpJ49+fk0eGNP6WrZ69ONqlqmwgfDDdlT3OPrLW1ItKoqnXME5ExVR0wxoxTQChj3Uk/iepnQD1wA1jJP4QTCVnx2lDT5yPcR8Jd2Np/IDE5d36LOvkGhD8TUjF8ZtvR8yxbtmzZsvtOWCAIgkZV7RWRlnQ6PcADoIIFoiga8TxvUFV7Pc8bjKJohCVWQYEoikY8zxtU1V7P8wajKBphCVVQRBRFI57nDapqr+d5g1EUjbBEHB5wQhFBEDSqaq+ItKTT6QGWkFAgCIJGVe0VkZZ0Oj3AEhMWCIKgUVV7RaQlnU4PsOx/4G/McanBd6fkggAAAABJRU5ErkJggg==);
+    background-position: -24px 0;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 2px
+}
+
+#crsrecmd .spsale-module .module-list > a span.time .counter {
+    display: inline-block;
+    line-height: 16px;
+    color: #999
+}
+
+#crsrecmd .spsale-module .module-list > a span.time .counter > span {
+    color: #000
+}
+
+#crsrecmd .guesslike-module {
+    margin-bottom: 0
+}
+
+#crsrecmd .guesslike-module .module-list {
+    margin: 20px 0 0 25px;
+    width: 680px
+}
+
+#crsrecmd .guesslike-module .module-list > a {
+    margin: 0 21px 20px 0
+}

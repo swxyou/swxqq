@@ -1,0 +1,2468 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <title>线路预订-途牛旅游网</title>
+    <meta name="description" content="线路预订-途牛旅游网">
+    <meta name="keywords" content="线路预订-途牛旅游网">
+    <script src="js/util/jquery-1.12.4.js" type="text/javascript"></script>
+    <script src="js/Settlement_js/Settlement_js.js" type="text/javascript"></script>
+    <script src="js/Settlement_js/neizhi.js" type="text/javascript"></script>
+    <script src="js/util/selectSession.js" type="text/javascript"></script>
+    <!-- 库 -->
+    <link href="css/Settlement_css/ad-gallery.css"
+          rel="stylesheet">
+    <!-- 公用 -->
+    <link href="css/Settlement_css/scrollbar.css"
+          rel="stylesheet">
+    <!-- 页面 -->
+
+    <link href="css/Settlement_css/style.css"
+          rel="stylesheet">
+
+    <!-- 模块 -->
+    <link href="css/Settlement_css/header.css"
+          rel="stylesheet">
+    <link href="css/Settlement_css/topInfo.css"
+          rel="stylesheet">
+    <link href="css/Settlement_css/reOrder.css"
+          rel="stylesheet">
+    <link href="css/Settlement_css/airplane.css"
+          rel="stylesheet">
+    <link href="css/Settlement_css/train.css"
+          rel="stylesheet">
+    <link href="css/Settlement_css/bus.css"
+          rel="stylesheet">
+    <link href="css/Settlement_css/multiTransport.css"
+          rel="stylesheet">
+    <link href="css/Settlement_css/transport.css"
+          rel="stylesheet">
+    <link href="css/Settlement_css/gallery2.css"
+          rel="stylesheet">
+    <link href="css/Settlement_css/hotel.css"
+          rel="stylesheet">
+    <link href="css/Settlement_css/scheduleInfo.css"
+          rel="stylesheet">
+    <link href="css/Settlement_css/mustSelected.css"
+          rel="stylesheet">
+    <link href="css/Settlement_css/optionalSelected.css"
+          rel="stylesheet">
+    <link href="css/Settlement_css/insurance.css"
+          rel="stylesheet">
+    <link href="css/Settlement_css/favourable.css"
+          rel="stylesheet">
+    <link href="css/Settlement_css/deliveryAddress.css"
+          rel="stylesheet">
+    <link href="css/Settlement_css/contact.css"
+          rel="stylesheet">
+    <link href="css/Settlement_css/icBox.css"
+          rel="stylesheet">
+    <link href="css/Settlement_css/tourist.css"
+          rel="stylesheet">
+    <link href="css/Settlement_css/visaMaterial.css"
+          rel="stylesheet">
+    <link href="css/Settlement_css/receipt.css"
+          rel="stylesheet">
+    <link href="css/Settlement_css/remark.css"
+          rel="stylesheet">
+    <link href="css/Settlement_css/footer.css"
+          rel="stylesheet">
+    <link href="css/Settlement_css/contract.css"
+          rel="stylesheet">
+    <link href="css/Settlement_css/priceCalculate.css"
+          rel="stylesheet">
+    <link href="css/Settlement_css/animation.css"
+          rel="stylesheet">
+    <link href="css/Settlement_css/placeHolder.css"
+          rel="stylesheet">
+    <link href="css/Settlement_css/product.css"
+          rel="stylesheet">
+    <link href="css/Settlement_css/Mys.css" rel="stylesheet">
+
+</head>
+<body class="step1 tour_order2 footer-fixed" id="m-step1">
+
+<div class="m-container" id="m-container"><!-- 头部 -->
+    <div class="g-head2nd" id="m-header">
+        <div class="m-login hide">
+            <div class="m-login-content">
+                <div class="login-and-register">
+
+                    您好！请<a href="javascript:;" class="f-login">登录</a>或<a href="javascript:;" class="f-register">注册</a>
+
+                </div>
+            </div>
+        </div>
+        <div class="m-content">
+            <div class="m-content-back-logo">
+                <a id="logo" href="http://www.tuniu.com/" target="_blank" title="途牛旅游网">
+
+                    <img class="tn_logo"
+                         src="images/Settlement_image/logo-tour-order.png"
+                         alt="途牛旅游网">
+                </a>
+            </div>
+            <div class="m-content-nav">
+
+                <img class="tn_logo "
+                     src="images/Settlement_image/process3/process3_1.png"
+                     alt="第一步：填写订单">
+            </div>
+        </div>
+    </div>
+
+    <!-- 头部信息 -->
+    <div class="info-box" id="m-top-info" style="display: block;">
+
+
+        <div class="notice_top_header">
+            <span class="icon notice2-icon"></span>
+            <div class="notice-wrapper">
+			<span class="notice_content static">
+				<span class="first">温馨提示：国内航班购票、值机、安检须使用同一有效乘机身份证件（含国内护照）。 <span class="content-space"></span></span>
+                <span class="second hide">温馨提示：国内航班购票、值机、安检须使用同一有效乘机身份证件（含国内护照）。 <span
+                        class="content-space"></span></span>
+                <span class="third hide">温馨提示：国内航班购票、值机、安检须使用同一有效乘机身份证件（含国内护照）。 <span
+                        class="content-space"></span></span>
+			</span>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- 主体部分 -->
+    <div class="g-wrapper">
+
+        <div class="content">
+
+            <!-- 产品基础信息 -->
+            <div class="modular m-product" id="m-product" style="display: block; opacity: 1;">
+                <div class="modular-body">
+                    <div class="price-title">
+                        <p class="name">
+                            <i class="icon name-icon"></i>
+                        </p>
+                        <p class="order-id">编号：210646222</p>
+                    </div>
+
+                    <div class="book-tourist-info">
+                        <div class="book-tourist-main">
+                            <div class="row">
+                                <div class="field field-width J_departCity">
+                                    <label class="c9">出发城市</label>
+                                    <div class="input_select w_200 ">
+                                        <ul class="s_clist" style="display: none;">
+
+                                            <li citycode="200" title="北京">北京</li>
+
+                                        </ul>
+                                        <div class="s_cnum s_cnum_onlyone">
+
+                                            <p class="s_ccon" citycode="200">北京</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="field J_departDate">
+                                <label class="c9">出发日期</label>
+                                <div class="input_select w_350">
+
+
+                                    <div class="s_cnum ">
+                                        <span class="sc_arrow"></span>
+
+
+                                        <p class="f-ol s_ccon" title="11-17 周六出发--11-25 周日返回" departdate="2018-11-17"
+                                           adultprice="11571" childprice="7871 " roomaddbudget="">
+                                            11-17 周六出发--11-25 周日返回
+                                        </p>
+
+                                    </div>
+
+                                    <div class="T_tri_pop hide">
+                        <span class="T_tri_outside">
+                            <em class="T_tri_inside"></em>
+                        </span>
+                                        您可以在此更换团期
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="field J_touristCount">
+                                <label class="tourist-num c9">出游人数</label>
+                                <div class="input_number J_adultCount">
+
+                                    <a class="tn_fontface minus">-</a>
+                                    <input class="value" name="Adult" readonly="readonly" value="1" type="text">
+                                    <a class="tn_fontface plus">+</a>
+                                    <label>成人</label>
+                                </div>
+                                <div class="input_number J_childCount">
+                                    <a class="tn_fontface minus">-</a>
+                                    <input class="value" name="children" readonly="readonly" value="0" type="text">
+                                    <a class="tn_fontface plus">+</a>
+                                    <label>儿童</label>
+                                    <div class="childCount-tips jtxz-detail-hover">
+                                        <i class="icon notice2-icon"></i>
+                                        <div class="jtxz-detail2">
+                                            <p class="YD_mgb">年龄2~6周岁（不含），不占床，不含早，其他服务同成人，除行程中明确不接待的项目。</p>
+                                            <span class="z">◆</span>
+                                            <span class="j">◆</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+                            <div class="field multi-journey clear-float">
+                                <label class="c9">适用行程</label>
+                                <span>本州畅游-线路A</span>
+                                <div class="clear-float"></div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 机票 -->
+            <div class="modular m-airplane m-traffic" id="m-airplane" style="display: block; opacity: 1;"><h2>
+                <a class="m-more ">更改航班<i class="icon more-icon"></i></a>
+                <span class="icon air-icon"></span>
+                <span class="m-title">航班信息</span>
+
+
+                <span class="m-title-desc">起降时间为当地时间，机票价格变动频繁，下单后请您尽快完成付款</span>
+
+
+            </h2>
+                <div class="modular-body">
+
+                    <div class="flight_journeys">
+
+                        <div class="flight_journey ">
+
+
+                            <table class="flight_info">
+                                <tbody>
+                                <tr>
+                                    <td class="route">
+                                        <div class="trip f-ol" title="北京-成都">
+                                            北京-成都
+                                        </div>
+                                        <div class="time">2018-11-17</div>
+                                    </td>
+
+                                    <td class="flight">
+                                        <div class="company f-ol" title="川航">
+
+                                            <img src="images/Settlement_image/hangban01.png"
+                                                 class="airplane-company-icon">
+
+                                            川航
+                                        </div>
+                                        <div class="number">
+                            <span class="flightNo f-ol f-bb ">
+                                3U8896 空客A320
+                            </span>
+
+                                            <div class="flightNo_detail">
+                                                <table>
+                                                    <tbody>
+                                                    <tr>
+                                                        <th>机型名称</th>
+                                                        <th>飞机类型</th>
+                                                        <th>餐食</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>3U8896</td>
+                                                        <td>空客A320</td>
+                                                        <td>
+
+                                                            ___
+
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                                <span class="z">◆</span>
+                                                <span class="j">◆</span>
+                                            </div>
+
+
+                                        </div>
+                                    </td>
+
+                                    <td class="stop">
+                                        <div class="where f-ol" title="首都机场">首都机场</div>
+                                        <div class="when">06:25</div>
+                                    </td>
+
+
+                                    <td class="arrow">
+                                        <div>
+                                            <span class="tour-stop-time">3h10m</span>
+                                        </div>
+                                    </td>
+
+
+                                    <td class="stop">
+                                        <div class="where f-ol" title="双流机场">双流机场</div>
+                                        <div class="when">
+                                            09:35
+
+
+                                        </div>
+                                    </td>
+
+                                    <td class="level">
+                                        <div class="f-ol" title="经济舱">经济舱</div>
+                                        <div class="comments jtxz-detail-hover">
+                                            <i class="icon notice2-icon"></i><em class="f-bb">
+
+
+                                            行李额
+
+
+                                        </em>
+                                            <div class="jtxz-detail2 T_width2">
+
+                                                <p class="YD_title">往返优惠</p>
+                                                <p class="YD_mgb">此航班往返程为指定航班，您可以根据需要自行选择</p>
+
+
+                                                <p class="YD_title">行李额说明</p>
+
+                                                <p class="YD_mgb">
+
+                                                    3U8896北京-成都：成人2件。;3U8087成都-大阪：成人2件。;3U8086东京-成都：成人2件。;3U8547成都-北京：成人2件。;
+
+                                                </p>
+
+
+                                                <span class="z">◆</span>
+                                                <span class="j">◆</span>
+                                            </div>
+                                        </div>
+                                    </td>
+
+
+                                </tr>
+                                </tbody>
+                            </table>
+
+                            <div class="transfer-info">
+                                <div class="transfer-tips">
+                                    <span class="transfer-city"><i class="icon city-icon"></i>中转城市：成都</span>
+                                    <span class="transfer-time"><i class="icon time-icon"></i>停留时间：4h40m</span>
+
+
+                                </div>
+                            </div>
+
+
+                            <table class="flight_info">
+                                <tbody>
+                                <tr>
+                                    <td class="route">
+                                        <div class="trip f-ol" title="成都-大阪">
+                                            成都-大阪
+                                        </div>
+                                        <div class="time">2018-11-17</div>
+                                    </td>
+
+                                    <td class="flight">
+                                        <div class="company f-ol" title="川航">
+
+                                            <img src="images/Settlement_image/hangban01.png"
+                                                 class="airplane-company-icon">
+
+                                            川航
+                                        </div>
+                                        <div class="number">
+                            <span class="flightNo f-ol f-bb ">
+                                3U8087 空客A320
+                            </span>
+
+                                            <div class="flightNo_detail">
+                                                <table>
+                                                    <tbody>
+                                                    <tr>
+                                                        <th>机型名称</th>
+                                                        <th>飞机类型</th>
+                                                        <th>餐食</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>3U8087</td>
+                                                        <td>空客A320</td>
+                                                        <td>
+
+                                                            ___
+
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                                <span class="z">◆</span>
+                                                <span class="j">◆</span>
+                                            </div>
+
+
+                                        </div>
+                                    </td>
+
+                                    <td class="stop">
+                                        <div class="where f-ol" title="双流机场">双流机场</div>
+                                        <div class="when">14:15</div>
+                                    </td>
+
+
+                                    <td class="arrow">
+                                        <div>
+                                            <span class="tour-stop-time">3h40m</span>
+                                        </div>
+                                    </td>
+
+
+                                    <td class="stop">
+                                        <div class="where f-ol" title="关西机场">关西机场</div>
+                                        <div class="when">
+                                            18:55
+
+
+                                        </div>
+                                    </td>
+
+                                    <td class="level">
+                                        <div class="f-ol" title="经济舱">经济舱</div>
+                                        <div class="comments jtxz-detail-hover">
+                                            <i class="icon notice2-icon"></i><em class="f-bb">
+
+
+                                            行李额
+
+
+                                        </em>
+                                            <div class="jtxz-detail2 T_width2">
+
+                                                <p class="YD_title">往返优惠</p>
+                                                <p class="YD_mgb">此航班往返程为指定航班，您可以根据需要自行选择</p>
+
+
+                                                <p class="YD_title">行李额说明</p>
+
+                                                <p class="YD_mgb">
+
+                                                    3U8896北京-成都：成人2件。;3U8087成都-大阪：成人2件。;3U8086东京-成都：成人2件。;3U8547成都-北京：成人2件。;
+
+                                                </p>
+
+
+                                                <span class="z">◆</span>
+                                                <span class="j">◆</span>
+                                            </div>
+                                        </div>
+                                    </td>
+
+
+                                </tr>
+                                </tbody>
+                            </table>
+
+
+                        </div>
+
+                        <div class="flight_journey last">
+
+
+                            <table class="flight_info">
+                                <tbody>
+                                <tr>
+                                    <td class="route">
+                                        <div class="trip f-ol" title="东京-成都">
+                                            东京-成都
+                                        </div>
+                                        <div class="time">2018-11-25</div>
+                                    </td>
+
+                                    <td class="flight">
+                                        <div class="company f-ol" title="川航">
+
+                                            <img src="images/Settlement_image/hangban01.png"
+                                                 class="airplane-company-icon">
+
+                                            川航
+                                        </div>
+                                        <div class="number">
+                            <span class="flightNo f-ol f-bb ">
+                                3U8086 空客330
+                            </span>
+
+                                            <div class="flightNo_detail">
+                                                <table>
+                                                    <tbody>
+                                                    <tr>
+                                                        <th>机型名称</th>
+                                                        <th>飞机类型</th>
+                                                        <th>餐食</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>3U8086</td>
+                                                        <td>空客330</td>
+                                                        <td>
+
+                                                            ___
+
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                                <span class="z">◆</span>
+                                                <span class="j">◆</span>
+                                            </div>
+
+
+                                        </div>
+                                    </td>
+
+                                    <td class="stop">
+                                        <div class="where f-ol" title="成田机场">成田机场</div>
+                                        <div class="when">20:30</div>
+                                    </td>
+
+
+                                    <td class="arrow">
+                                        <div>
+                                            <span class="tour-stop-time">5h55m</span>
+                                        </div>
+                                    </td>
+
+
+                                    <td class="stop">
+                                        <div class="where f-ol" title="双流机场">双流机场</div>
+                                        <div class="when">
+                                            01:25
+
+
+                                        </div>
+                                    </td>
+
+                                    <td class="level">
+                                        <div class="f-ol" title="经济舱">经济舱</div>
+                                        <div class="comments jtxz-detail-hover">
+                                            <i class="icon notice2-icon"></i><em class="f-bb">
+
+
+                                            行李额
+
+
+                                        </em>
+                                            <div class="jtxz-detail2 T_width2">
+
+                                                <p class="YD_title">往返优惠</p>
+                                                <p class="YD_mgb">此航班往返程为指定航班，您可以根据需要自行选择</p>
+
+
+                                                <p class="YD_title">行李额说明</p>
+
+                                                <p class="YD_mgb">
+
+                                                    3U8896北京-成都：成人2件。;3U8087成都-大阪：成人2件。;3U8086东京-成都：成人2件。;3U8547成都-北京：成人2件。;
+
+                                                </p>
+
+
+                                                <span class="z">◆</span>
+                                                <span class="j">◆</span>
+                                            </div>
+                                        </div>
+                                    </td>
+
+
+                                </tr>
+                                </tbody>
+                            </table>
+
+                            <div class="transfer-info">
+                                <div class="transfer-tips">
+                                    <span class="transfer-city"><i class="icon city-icon"></i>中转城市：成都</span>
+                                    <span class="transfer-time"><i class="icon time-icon"></i>停留时间：4h40m</span>
+
+
+                                </div>
+                            </div>
+
+
+                            <table class="flight_info">
+                                <tbody>
+                                <tr>
+                                    <td class="route">
+                                        <div class="trip f-ol" title="成都-北京">
+                                            成都-北京
+                                        </div>
+                                        <div class="time">2018-11-26</div>
+                                    </td>
+
+                                    <td class="flight">
+                                        <div class="company f-ol" title="川航">
+
+                                            <img src="images/Settlement_image/hangban01.png"
+                                                 class="airplane-company-icon">
+
+                                            川航
+                                        </div>
+                                        <div class="number">
+                            <span class="flightNo f-ol f-bb ">
+                                3U8547 空客A330-300
+                            </span>
+
+                                            <div class="flightNo_detail">
+                                                <table>
+                                                    <tbody>
+                                                    <tr>
+                                                        <th>机型名称</th>
+                                                        <th>飞机类型</th>
+                                                        <th>餐食</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>3U8547</td>
+                                                        <td>空客A330-300</td>
+                                                        <td>
+
+                                                            ___
+
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                                <span class="z">◆</span>
+                                                <span class="j">◆</span>
+                                            </div>
+
+
+                                        </div>
+                                    </td>
+
+                                    <td class="stop">
+                                        <div class="where f-ol" title="双流机场">双流机场</div>
+                                        <div class="when">06:05</div>
+                                    </td>
+
+
+                                    <td class="arrow">
+                                        <div>
+                                            <span class="tour-stop-time">2h45m</span>
+                                        </div>
+                                    </td>
+
+
+                                    <td class="stop">
+                                        <div class="where f-ol" title="首都机场">首都机场</div>
+                                        <div class="when">
+                                            08:50
+
+
+                                        </div>
+                                    </td>
+
+                                    <td class="level">
+                                        <div class="f-ol" title="经济舱">经济舱</div>
+                                        <div class="comments jtxz-detail-hover">
+                                            <i class="icon notice2-icon"></i><em class="f-bb">
+
+
+                                            行李额
+
+
+                                        </em>
+                                            <div class="jtxz-detail2 T_width2">
+
+                                                <p class="YD_title">往返优惠</p>
+                                                <p class="YD_mgb">此航班往返程为指定航班，您可以根据需要自行选择</p>
+
+
+                                                <p class="YD_title">行李额说明</p>
+
+                                                <p class="YD_mgb">
+
+                                                    3U8896北京-成都：成人2件。;3U8087成都-大阪：成人2件。;3U8086东京-成都：成人2件。;3U8547成都-北京：成人2件。;
+
+                                                </p>
+
+
+                                                <span class="z">◆</span>
+                                                <span class="j">◆</span>
+                                            </div>
+                                        </div>
+                                    </td>
+
+
+                                </tr>
+                                </tbody>
+                            </table>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 火车票 -->
+            <div class="modular m-train" id="m-train" style="opacity: 0;"></div>
+
+            <!-- 汽车票 -->
+            <div class="modular m-bus" id="m-bus" style="opacity: 0;"></div>
+
+            <!-- 联运 -->
+            <div class="modular m-multi-transport" id="m-multi-transport" style="opacity: 0;"></div>
+
+            <!-- 自助交通信息 -->
+            <div class="modular m-traffic m-airplane m-train m-bus m-multi-transport" id="m-traffic"
+                 style="opacity: 0;"></div>
+
+            <!-- 联运方案 -->
+            <div class="modular m-transport" id="m-transport" style="opacity: 0;"></div>
+
+            <!-- 邮轮 -->
+            <div class="modular m-cruise" id="m-cruise" style="opacity: 0;"></div>
+
+            <!-- 酒店 -->
+            <div class="m-hotel" id="m-hotel"></div>
+
+            <!-- 自助套餐 -->
+            <div class="m-package m-airplane m-traffic m-hotel" id="m-package"></div>
+
+            <!-- 行程信息 -->
+            <div class="modular m-schedule" id="m-schedule-info" style="opacity: 1; display: block;"><h2>
+                <span class="icon schedule-icon"></span>
+                <span class="m-title">行程通告</span>
+            </h2>
+                <div class="modular-body">
+
+
+                    <div class="panel sigle-room">
+        <span class="panel-title"><i class="icon loca-icon"></i>全程单房差
+              <span class="jtxz-detail-hover">
+                  <i class="icon loca-tips-icon"></i>
+                        <div class="jtxz-detail2 T_width2">
+                            <p class="YD_title">单房差是什么？</p>
+                            <p class="YD_mgb">因旅游过程中的住宿一般是两个床位的标准间，而团费是根据1名成人占1张床计算的，所以当您的出游人数（成人）为奇数时，需要补足另外一个床位的费用。</p>
+                            <span class="z">◆</span>
+                            <span class="j">◆</span>
+                        </div>
+              </span>
+        </span>
+
+
+                        <div class="room-info T_one_resource last">
+                            <span class="info-type">预付单房差</span>
+                            <span class="info-price"><em class="f60">￥4000</em></span>
+                            <span class="info-select">
+                                <label class="input_checkbox enabled">
+                                    <!--<span class="tn_fontface"></span>-->
+                                    <input type="checkbox" checked="checked" name="dfc" disabled="disabled">
+                                </label>
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 必选产品 -->
+            <div class="modular m-must-select" id="m-must-selected" style="opacity: 0;"></div>
+
+            <!-- 可选产品 -->
+            <div class="modular m-optional" id="m-optional-selected" style="display: none; opacity: 0;"></div>
+
+            <!-- 保险 -->
+            <div class="modular m-insurance" id="m-insurance" style="display: block; opacity: 1;">
+                <h2>
+                    <span class="icon insurance-icon"></span>
+                    <span class="m-title">保险方案</span>
+                    <span class="m-title-desc" style="display: none;"></span>
+                </h2>
+                <div class="modular-body">
+
+
+                    <div class="panel  has-border">
+                        <span class="type" style="">意外险</span>
+                        <span class="name f-ol">
+                        <em class="f-active-color detail-wrapper" title="日本财险境外旅游升级版(适用于出游8~10天)">
+                        <span class="bx_click">日本财险境外旅游升级版(适用于出游8~10天)</span>
+                <div class="resources-detail" style="display: none;">
+                 <div class="close-detail"><i class="icon close-icon"></i></div>
+                 <div class="resources">
+                     <div class="resources-panel">
+                         <span class="resources-panel-title"><i class="icon title-icon"></i>保险类型</span>
+                         <p class="c9">意外险</p>
+                     </div>
+                     <div class="resources-panel">
+                         <span class="resources-panel-title"><i class="icon title-icon"></i>保险描述</span>
+                         <div class="c9 explain">1、 个人意外伤害保障 :80万元<br>2、 门诊及住院医疗费用 :40万元<br>3、 急性病身故 :10万元<br>4、 医疗运送和送返 :200万元<br>5、 身故遗体/骨灰送返（其中丧葬保险金以20,000元为限） :150万元<br>6、 亲属慰问探访 :1.50万元<br>7、 未成年人送返费用 :8000元<br>8、 紧急搜救 :4万元<br>9、 被劫持（每12小时赔偿500元） :2000元<br>10、 行李延误（每延误8小时，赔偿500元） :1500元<br>11、 旅程延误（每延误5小时，赔偿300元） :1500元<br>12、 旅行证件遗失 :4000元<br>13、 旅行者随身财产（每件或每套行李或物品赔偿限额为1,000元） :5000元<br>14、 海外住院翻译费用（最高200元/日） :2000元<br>15、 海外住院津贴（最多60日） :100元/天<br>16、 旅行个人钱财 :500元<br>17、 家庭财物保障 :5000元<br>18、 旅行个人责任 :50万元<br></div>
+                     </div>
+                     <div class="resources-panel">
+                         <span class="resources-panel-title"><i class="icon title-icon"></i>投保须知</span>
+                         <div class="c9 explain">保障详细信息请见 “日本财险境外旅游升级版(适用于出游8~10天)” 详情地址：<a
+                                 href="http://baoxian.tuniu.com/ins/wins/query/bossProductDetail/264" target="_blank">http://baoxian.tuniu.com/ins/wins/query/bossProductDetail/264</a> <br><br>投保须知<br><p>1、为了保障您自身的权益，请仔细阅读理解保险合同的各项规定，尤其是免除保险人责任的规定。请确保您对保险公司的说明完全理解，没有异议。如未询问，则视同已经对合同内容完全理解并无异议。</p>
+
+<p>2、本保险方案承保的投保年龄为28天-90周岁。</p>
+
+<p style="margin-left:21.0pt">被保险人为未满10周岁的未成年人，其身故保险金额为人民币20万元。</p>
+
+<p style="margin-left:21.0pt">被保险人为已满10周岁但未满18周岁的未成年人，如果其以身故为给付保险金条件的保险金额(包括在所有商业保险公司购买的保险)超过中国保监会所规定的限额(即人民币50万元)须特别告知，否则保险公司可能对超出限额的部分不承担保险责任。</p>
+
+<p style="margin-left:21.0pt">71
+至80周岁的被保险人，其“个人意外伤害保障”、“门诊及住院医疗费用”及“急性病身故”的保险金额为上述所载金额的一半；81至90周岁的被保险人，其
+
+“个人意外伤害保障”、“门诊及住院医疗费用”、“急性病身故”、“医疗运送和送返”、“身故遗体/骨灰送返”、“亲属慰问探访”、“未成年人送返费用”
+ 及“紧急搜救”责任的保险金额为保险单所载金额的25%。</p>
+
+<p>3、本保险不承保任何直接或间接前往或途径战争国家/地区、以及其
+他处于战争状态或已被宣布为紧急状态的国家/地区，对于在上述国家/地区旅行期间发生的保险事故本公司不负责任何赔偿责任。具体的战争风险地区目录信息可
+ 在 www.ervchina.com 上查询、下载。</p>
+
+<p>4、本保险不承保任何国家或国际组织认定的恐怖分子或恐怖组织成员，或非法从事毒品、核武器、生物或化学武器交易人员。</p>
+
+<p>5、
+本保险计划为被保险人在旅行期间提供24小时的全球保障，涵盖地区包括所有申根国家包括但不仅限于奥地利、比利时、丹麦、芬兰、法国、德国、冰岛、意大
+利、希腊、卢森堡、荷兰、挪威、葡萄牙、西班牙、瑞典、瑞士、波兰、捷克、爱沙尼亚、立陶宛、斯洛伐克、匈牙利、斯洛文尼亚、拉脱维亚及马耳他等国家和地
+ 区。</p>
+
+<p>6、请在预定出发时间24小时前投保并缴纳保费以保证保险合同生效。</p>
+
+<p>7、每次旅行最长承保期限为92天。</p>
+
+<p>8、您可致电全国统一客户服务热线400-920-9551(工作日 9：00~17：30)，查询保单信息或联系咨询。</p>
+
+<p>9、本产品由保险人--日本财产保险（中国）有限公司（“我们”）承保。我们目前在辽宁省、上海市、北京市、广东省及江苏省设有经营机构。</p>
+<br>服务告知<br> 1、为了保障您的合法权益，请您提供准确、完整的姓名、证件号码、出生日期及出行时间，因信息不正确导致的保险拒赔等后果，由预订人自行承担。<br> 2、您可通过网上银行、信用卡或银联在线、支付宝、微信支付等第三方支付平台支付保险费。<br> 3、保险以电子保单形式承保，根据《中华人民共和国合同法》第十一条规定，数据电文是合法的合同表现形式。电子保单与纸质保单具有同等法律效力，请您妥善保存。<br> 4、您可在购买保险成功后，在“会员中心”-“出游订单”中查看、下载电子保单。如有疑问，请咨询途牛。<br> 5、如需保险发票，请参见“发票信息”。<br> 6、保险经纪服务提供方：途牛保险经纪有限公司，网址：<a
+                                     href="http://www.tuniuins.com/" target="_blank">http://www.tuniuins.com</a>。您充分阅读并接受《保险经纪委托合同及客户告知书》详情地址：<a
+                                     href="http://baoxian.tuniu.com/ins/resource/bxjjwtht" target="_blank">http://baoxian.tuniu.com/ins/resource/bxjjwtht</a>，同意委托途牛保险经纪有限公司办理保险业务。<br></div>
+                     </div>
+
+                     <div class="resources-panel">
+                         <span class="resources-panel-title"><i class="icon title-icon"></i>详细信息请阅读</span>
+                         <p class="c9"><a href="http://www.tuniu.com/help/detail/131#_SJ" target="_blank"
+                                          class="f-active-color">保险条款</a></p>
+                     </div>
+
+                 </div>
+                <span class="icon white-triangle"></span>
+                <div class="clear-float"></div>
+             </div>
+            </em>
+        </span>
+                        <span class="price"><em>￥195</em>/人</span>
+                        <span class="select-box">
+                            <label class="input_checkbox enabled">
+                                <!--<span class="tn_fontface"></span>-->
+                                <input type="checkbox" value="195" checked="checked" name="bx">
+                            </label>
+                                                            <span id="ceshi" data-value="123"></span>
+                        </span>
+                    </div>
+
+
+                    <div class="panel hide ">
+                        <span class="type" style="visibility: hidden;">意外险</span>
+                        <span class="name f-ol">
+            <em class="f-active-color detail-wrapper" title="人保财出境游旅意险全面方案（出游8~10天）">
+                <span class="bx_click">人保财出境游旅意险全面方案（出游8~10天）</span>
+                <div class="resources-detail" style="display: none;">
+                 <div class="close-detail"><i class="icon close-icon"></i></div>
+                 <div class="resources">
+                     <div class="resources-panel">
+                         <span class="resources-panel-title"><i class="icon title-icon"></i>保险类型</span>
+                         <p class="c9">意外险</p>
+                     </div>
+                     <div class="resources-panel">
+                         <span class="resources-panel-title"><i class="icon title-icon"></i>保险描述</span>
+                         <div class="c9 explain">1、 意外伤害（意外身故、烧伤及残疾保障） :100万元<br>2、 飞机意外 :100万元<br>3、 火车意外 :40万元<br>4、 轮船意外 :40万元<br>5、 汽车意外（含旅游大巴） :10万元<br>6、 突发急性病身故 :20万元<br>7、 医疗保障（意外医疗、急性病医疗及医疗垫付） :50万元<br>8、 紧急医疗运送和送返 :100万元<br>9、 身故遗体送返（其中丧葬保险金20000元） :50万元<br>10、 亲属慰问探访费用补偿（未成年人送返费用补偿） :2万元<br>11、 行李延误（每延误8小时，赔偿RMB500元） :2500元<br>12、 旅行延误（每延误5小时，赔偿RMB300元） :1800元<br>13、 旅程缩短 :6000元<br>14、 个人随身财产（含3C电器） :6000元<br>15、 银行卡盗刷 :5000元<br>16、 旅行证件遗失/重置 :5000元<br>17、 个人法律责任 :50万元<br></div>
+                     </div>
+                     <div class="resources-panel">
+                         <span class="resources-panel-title"><i class="icon title-icon"></i>投保须知</span>
+                         <div class="c9 explain">保障详细信息请见 “人保财出境游旅意险全面方案（出游8~10天）” 详情地址：<a
+                                 href="http://baoxian.tuniu.com/ins/wins/query/bossProductDetail/575" target="_blank">http://baoxian.tuniu.com/ins/wins/query/bossProductDetail/575</a> <br><br>投保须知<br><p>1、为了保障您自身的权益，请仔细阅读理解《中国人民财产保险股份有限公司环球游境外旅行意外伤害保险条款（2009版）》及相关附加险条款的各项规定，尤其是免除保险人责任的规定。请确保您对保险公司的说明完全理解，没有异议。<br>
+2、本保险方案承保年龄为出生满28天-90周岁（含）。<br>
+未满18周岁未成年人的身故保险金额不超过保监会规定的限额（即人民币50万元）。<br>
+被保险人为71-80周岁（含）人员，意外身故保额减半，81~90周岁（含）人员意外身故保额为1/4，保险费不变。<br>
+3、亲属慰问探访费用补偿与未成年人送返费用补偿共享保额。<br>
+4、旅程延误包括公共交通工具造成的旅程延误，航班起飞或延误达到时长均可理赔。<br>
+5、个人随身财产包含3C电器，赔偿限额每件（套）2000元。<br>
+6、支持因不可抗力（航班延误、台风、海啸）等造成旅程延误时的延保，延保24小时。<br>
+7、扩展高风险运动承保。<br>
+8、医疗补偿保障：包含意外医疗责任、突发急性病医疗责任，无免赔。<br>
+9、意外医疗责任：被保险人在境外旅行期间遭受意外伤害事故须入医院治疗，就被保险人在该次意外伤害事故发生之日起90日内的支出，合理且必须的医疗费用。<br>
+10、若被保险人在境外治疗后转回境内治疗，境内的医疗费用须符合保险单签发地的社会医疗保险药品目录、诊疗项目目录以及服务设施范围和支付标准，不符合的部分，保险人不承担保险金给付责任。<br>
+11、客户可向人保财险进行投保咨询、保单查询或投诉建议。人保财官网：http://www.epicc.com.cn/，服热线电话95518。</p>
+<br>服务告知<br> 1、为了保障您的合法权益，请您提供准确、完整的姓名、证件号码、出生日期及出行时间，因信息不正确导致的保险拒赔等后果，由预订人自行承担。<br> 2、您可通过网上银行、信用卡或银联在线、支付宝、微信支付等第三方支付平台支付保险费。<br> 3、保险以电子保单形式承保，根据《中华人民共和国合同法》第十一条规定，数据电文是合法的合同表现形式。电子保单与纸质保单具有同等法律效力，请您妥善保存。<br> 4、您可在购买保险成功后，在“会员中心”-“出游订单”中查看、下载电子保单。如有疑问，请咨询途牛。<br> 5、如需保险发票，请参见“发票信息”。<br> 6、保险经纪服务提供方：途牛保险经纪有限公司，网址：<a
+                                     href="http://www.tuniuins.com/" target="_blank">http://www.tuniuins.com</a>。您充分阅读并接受《保险经纪委托合同及客户告知书》详情地址：<a
+                                     href="http://baoxian.tuniu.com/ins/resource/bxjjwtht" target="_blank">http://baoxian.tuniu.com/ins/resource/bxjjwtht</a>，同意委托途牛保险经纪有限公司办理保险业务。<br></div>
+                     </div>
+
+                     <div class="resources-panel">
+                         <span class="resources-panel-title"><i class="icon title-icon"></i>详细信息请阅读</span>
+                         <p class="c9"><a href="http://www.tuniu.com/help/detail/131#_QM" target="_blank"
+                                          class="f-active-color">保险条款</a></p>
+                     </div>
+
+                 </div>
+                <span class="icon white-triangle"></span>
+                <div class="clear-float"></div>
+             </div>
+            </em>
+        </span>
+                        <span class="price"><em>￥300</em>/人</span>
+                        <span class="select-box">
+                            <label class="input_checkbox ">
+                                <!--<span class="tn_fontface"></span>-->
+                                <input type="checkbox" name="bx">
+                            </label>
+                        </span>
+                    </div>
+
+
+                    <div class="panel hide">
+                        <span class="type" style="visibility: hidden;">意外险</span>
+                        <span class="name f-ol">
+            <em class="f-active-color detail-wrapper" title="日本财险境外旅游经典版(适用于出游9天)">
+                <span class="bx_click">日本财险境外旅游经典版(适用于出游9天)</span>
+                <div class="resources-detail" style="display: none;">
+                 <div class="close-detail"><i class="icon close-icon"></i></div>
+                 <div class="resources">
+                     <div class="resources-panel">
+                         <span class="resources-panel-title"><i class="icon title-icon"></i>保险类型</span>
+                         <p class="c9">意外险</p>
+                     </div>
+                     <div class="resources-panel">
+                         <span class="resources-panel-title"><i class="icon title-icon"></i>保险描述</span>
+                         <div class="c9 explain">1、 个人意外伤害保障 :50万元<br>2、 门诊及住院医疗费用 :30万元<br>3、 急性病身故 :10万元<br>4、 医疗运送和送返 :50万元<br>5、 身故遗体/骨灰送返（其中丧葬保险金以16,000元为限） :50万元<br>6、 亲属慰问探访 :1万元<br>7、 未成年人送返费用 :8000元<br>8、 紧急搜救 :4万元<br>9、 行李延误（每延误8小时，赔偿500元） :1500元<br>10、 旅程延误（每延误5小时，赔偿300元） :900元<br>11、 旅行证件遗失 :1000元<br>12、 旅行者随身财产（每件或每套行李或物品赔偿限额为1,000元） :3000元<br>13、 海外住院翻译费用（最高200元/日） :2000元<br>14、 海外住院津贴（最多60日） :100元/天<br>15、 家庭财物保障 :5000元<br>16、 旅行个人责任 :40万元<br></div>
+                     </div>
+                     <div class="resources-panel">
+                         <span class="resources-panel-title"><i class="icon title-icon"></i>投保须知</span>
+                         <div class="c9 explain">保障详细信息请见 “日本财险境外旅游经典版(适用于出游9天)” 详情地址：<a
+                                 href="http://baoxian.tuniu.com/ins/wins/query/bossProductDetail/263" target="_blank">http://baoxian.tuniu.com/ins/wins/query/bossProductDetail/263</a> <br><br>投保须知<br><p>1、为了保障您自身的权益，请仔细阅读理解保险合同的各项规定，尤其是免除保险人责任的规定。请确保您对保险公司的说明完全理解，没有异议。如未询问，则视同已经对合同内容完全理解并无异议。</p>
+
+<p>2、本保险方案承保的投保年龄为28天-90周岁。</p>
+
+<p style="margin-left:21.0pt">被保险人为未满10周岁的未成年人，其身故保险金额为人民币20万元。</p>
+
+<p style="margin-left:21.0pt">被保险人为已满10周岁但未满18周岁的未成年人，如果其以身故为给付保险金条件的保险金额(包括在所有商业保险公司购买的保险)超过中国保监会所规定的限额(即人民币50万元)须特别告知，否则保险公司可能对超出限额的部分不承担保险责任。</p>
+
+<p style="margin-left:21.0pt">71
+至80周岁的被保险人，其“个人意外伤害保障”、“门诊及住院医疗费用”及“急性病身故”的保险金额为上述所载金额的一半；81至90周岁的被保险人，其
+
+“个人意外伤害保障”、“门诊及住院医疗费用”、“急性病身故”、“医疗运送和送返”、“身故遗体/骨灰送返”、“亲属慰问探访”、“未成年人送返费用”
+ 及“紧急搜救”责任的保险金额为保险单所载金额的25%。</p>
+
+<p>3、本保险不承保任何直接或间接前往或途径战争国家/地区、以及其
+他处于战争状态或已被宣布为紧急状态的国家/地区，对于在上述国家/地区旅行期间发生的保险事故本公司不负责任何赔偿责任。具体的战争风险地区目录信息可
+ 在 www.ervchina.com 上查询、下载。</p>
+
+<p>4、本保险不承保任何国家或国际组织认定的恐怖分子或恐怖组织成员，或非法从事毒品、核武器、生物或化学武器交易人员。</p>
+
+<p>5、
+本保险计划为被保险人在旅行期间提供24小时的全球保障，涵盖地区包括所有申根国家包括但不仅限于奥地利、比利时、丹麦、芬兰、法国、德国、冰岛、意大
+利、希腊、卢森堡、荷兰、挪威、葡萄牙、西班牙、瑞典、瑞士、波兰、捷克、爱沙尼亚、立陶宛、斯洛伐克、匈牙利、斯洛文尼亚、拉脱维亚及马耳他等国家和地
+区。</p>
+
+<p>6、请在预定出发时间24小时前投保并缴纳保费以保证保险合同生效。</p>
+
+<p>7、每次旅行最长承保期限为92天。</p>
+
+<p>8、您可致电全国统一客户服务热线400-920-9551(工作日 9：00~17：30)，查询保单信息或联系咨询。</p>
+
+<p>9、本产品由保险人--日本财产保险（中国）有限公司（“我们”）承保。我们目前在辽宁省、上海市、北京市、广东省及江苏省设有经营机构。</p>
+<br>服务告知<br> 1、为了保障您的合法权益，请您提供准确、完整的姓名、证件号码、出生日期及出行时间，因信息不正确导致的保险拒赔等后果，由预订人自行承担。<br> 2、您可通过网上银行、信用卡或银联在线、支付宝、微信支付等第三方支付平台支付保险费。<br> 3、保险以电子保单形式承保，根据《中华人民共和国合同法》第十一条规定，数据电文是合法的合同表现形式。电子保单与纸质保单具有同等法律效力，请您妥善保存。<br> 4、您可在购买保险成功后，在“会员中心”-“出游订单”中查看、下载电子保单。如有疑问，请咨询途牛。<br> 5、如需保险发票，请参见“发票信息”。<br> 6、保险经纪服务提供方：途牛保险经纪有限公司，网址：<a
+                                     href="http://www.tuniuins.com/" target="_blank">http://www.tuniuins.com</a>。您充分阅读并接受《保险经纪委托合同及客户告知书》详情地址：<a
+                                     href="http://baoxian.tuniu.com/ins/resource/bxjjwtht" target="_blank">http://baoxian.tuniu.com/ins/resource/bxjjwtht</a>，同意委托途牛保险经纪有限公司办理保险业务。<br></div>
+                     </div>
+
+                     <div class="resources-panel">
+                         <span class="resources-panel-title"><i class="icon title-icon"></i>详细信息请阅读</span>
+                         <p class="c9"><a href="http://www.tuniu.com/help/detail/131#_JD" target="_blank"
+                                          class="f-active-color">保险条款</a></p>
+                     </div>
+
+                 </div>
+                <span class="icon white-triangle"></span>
+                <div class="clear-float"></div>
+             </div>
+            </em>
+        </span>
+                        <span class="price"><em>￥156</em>/人</span>
+                        <span class="select-box">
+                            <label class="input_checkbox ">
+                                <!--<span class="tn_fontface"></span>-->
+                                <input type="checkbox" name="bx">
+                            </label>
+                        </span>
+                    </div>
+
+
+                    <div class="panel hide ">
+                        <span class="type" style="visibility: hidden;">意外险</span>
+                        <span class="name f-ol">
+            <em class="f-active-color detail-wrapper" title="人保财出境游旅意险经典方案（出游8~10天）">
+                <span class="bx_click">人保财出境游旅意险经典方案（出游8~10天）</span>
+                <div class="resources-detail" style="display: none;">
+                 <div class="close-detail"><i class="icon close-icon"></i></div>
+                 <div class="resources">
+                     <div class="resources-panel">
+                         <span class="resources-panel-title"><i class="icon title-icon"></i>保险类型</span>
+                         <p class="c9">意外险</p>
+                     </div>
+                     <div class="resources-panel">
+                         <span class="resources-panel-title"><i class="icon title-icon"></i>保险描述</span>
+                         <div class="c9 explain">1、 意外伤害（意外身故、烧伤及残疾保障）
+ :60万元<br>2、 飞机意外 :60万元<br>3、 火车意外 :30万元<br>4、 轮船意外 :30万元<br>5、 汽车意外（含旅游大巴） :10万元<br>6、 突发急性病身故 :15万元<br>7、 医疗保障（意外医疗、急性病医疗及医疗垫付） :30万元<br>8、 紧急医疗运送和送返 :35万元<br>9、 身故遗体送返（其中丧葬保险金20000元） :15万元<br>10、 亲属慰问探访费用补偿（未成年人送返费用补偿） :12000元<br>11、 行李延误（每延误8小时，赔偿RMB500元） :1500元<br>12、 旅行延误（每延误5小时，赔偿RMB300元） :1200元<br>13、 旅程缩短 :3000元<br>14、 个人随身财产（含3C电器） :3000元<br>15、 个人法律责任 :25万元<br></div>
+                     </div>
+                     <div class="resources-panel">
+                         <span class="resources-panel-title"><i class="icon title-icon"></i>投保须知</span>
+                         <div class="c9 explain">保障详细信息请见 “人保财出境游旅意险经典方案（出游8~10天）” 详情地址：<a
+                                 href="http://baoxian.tuniu.com/ins/wins/query/bossProductDetail/573" target="_blank">http://baoxian.tuniu.com/ins/wins/query/bossProductDetail/573</a> <br><br>投保须知<br><p>1、为了保障您自身的权益，请仔细阅读理解《中国人民财产保险股份有限公司环球游境外旅行意外伤害保险条款（2009版）》及相关附加险条款的各项规定，尤其是免除保险人责任的规定。请确保您对保险公司的说明完全理解，没有异议。<br>
+2、本保险方案承保年龄为出生满28天-90周岁（含）。<br>
+未满18周岁未成年人的身故保险金额不超过保监会规定的限额（即人民币50万元）。<br>
+被保险人为71-80周岁（含）人员，意外身故保额减半，81~90周岁（含）人员意外身故保额为1/4，保险费不变。<br>
+3、亲属慰问探访费用补偿与未成年人送返费用补偿共享保额。<br>
+4、旅程延误包括公共交通工具造成的旅程延误，航班起飞或延误达到时长均可理赔。<br>
+5、个人随身财产包含3C电器，赔偿限额每件（套）2000元。<br>
+6、支持因不可抗力（航班延误、台风、海啸）等造成旅程延误时的延保，延保24小时。<br>
+7、扩展高风险运动承保。<br>
+8、医疗补偿保障：包含意外医疗责任、突发急性病医疗责任，无免赔。<br>
+9、意外医疗责任：被保险人在境外旅行期间遭受意外伤害事故须入医院治疗，就被保险人在该次意外伤害事故发生之日起90日内的支出，合理且必须的医疗费用。<br>
+10、若被保险人在境外治疗后转回境内治疗，境内的医疗费用须符合保险单签发地的社会医疗保险药品目录、诊疗项目目录以及服务设施范围和支付标准，不符合的部分，保险人不承担保险金给付责任。<br>
+11、客户可向人保财险进行投保咨询、保单查询或投诉建议。人保财官网：http://www.epicc.com.cn/，服热线电话95518。</p>
+<br>服务告知<br> 1、为了保障您的合法权益，请您提供准确、完整的姓名、证件号码、出生日期及出行时间，因信息不正确导致的保险拒赔等后果，由预订人自行承担。<br> 2、您可通过网上银行、信用卡或银联在线、支付宝、微信支付等第三方支付平台支付保险费。<br> 3、保险以电子保单形式承保，根据《中华人民共和国合同法》第十一条规定，数据电文是合法的合同表现形式。电子保单与纸质保单具有同等法律效力，请您妥善保存。<br> 4、您可在购买保险成功后，在“会员中心”-“出游订单”中查看、下载电子保单。如有疑问，请咨询途牛。<br> 5、如需保险发票，请参见“发票信息”。<br> 6、保险经纪服务提供方：途牛保险经纪有限公司，网址：<a
+                                     href="http://www.tuniuins.com/" target="_blank">http://www.tuniuins.com</a>。您充分阅读并接受《保险经纪委托合同及客户告知书》详情地址：<a
+                                     href="http://baoxian.tuniu.com/ins/resource/bxjjwtht" target="_blank">http://baoxian.tuniu.com/ins/resource/bxjjwtht</a>，同意委托途牛保险经纪有限公司办理保险业务。<br></div>
+                     </div>
+
+                     <div class="resources-panel">
+                         <span class="resources-panel-title"><i class="icon title-icon"></i>详细信息请阅读</span>
+                         <p class="c9"><a href="http://www.tuniu.com/help/detail/131#_JD" target="_blank"
+                                          class="f-active-color">保险条款</a></p>
+                     </div>
+
+                 </div>
+                <span class="icon white-triangle"></span>
+                <div class="clear-float"></div>
+             </div>
+            </em>
+        </span>
+                        <span class="price"><em>￥160</em>/人</span>
+                        <span class="select-box">
+                            <label class="input_checkbox ">
+                                <!--<span class="tn_fontface"></span>-->
+                                <input type="checkbox" name="bx">
+                            </label>
+                        </span>
+                    </div>
+
+
+                    <div class="panel  has-border">
+                        <span class="type" style="">取消险</span>
+                        <span class="name f-ol">
+            <em class="f-active-color detail-wrapper" title="太平洋旅程取消险方案11">
+                <span class="bx_click">太平洋旅程取消险方案11</span>
+                <div class="resources-detail" style="display: none;">
+                 <div class="close-detail"><i class="icon close-icon"></i></div>
+                 <div class="resources">
+                     <div class="resources-panel">
+                         <span class="resources-panel-title"><i class="icon title-icon"></i>保险类型</span>
+                         <p class="c9">旅途取消险</p>
+                     </div>
+                     <div class="resources-panel">
+                         <span class="resources-panel-title"><i class="icon title-icon"></i>保险描述</span>
+                         <div class="c9 explain">1、 保障因旅行者个人原因在出发日前退团并且未加入后续行程，导致旅行团费被扣除的经济损失。最高赔付 :20000元<br></div>
+                     </div>
+                     <div class="resources-panel">
+                         <span class="resources-panel-title"><i class="icon title-icon"></i>投保须知</span>
+                         <div class="c9 explain">保障详细信息请见 “太平洋旅程取消险方案11” 详情地址：<a
+                                 href="http://baoxian.tuniu.com/ins/wins/query/bossProductDetail/494" target="_blank">http://baoxian.tuniu.com/ins/wins/query/bossProductDetail/494</a> <br><br>投保须知<br><p>1、本保险签约后不可新增或退保。</p>
+
+<p>2、保障范围：因旅行者个人原因退团导致团费扣除的经济损失部分风险。（承保金额不超过单个旅游者预订团费的金额），免赔额为实际损失的40%。</p>
+
+<p>3、赔付金额：旅行团费实际损失的60%和方案对应的团费区间上限的较小值。</p>
+
+<p>4、为保障您的权益，投保之前请您仔细阅读条款中的除外责任；</p>
+
+<p>5、本产品由中国太平洋财产保险股份有限公司承保，目前该公司在北京、天津、河北、山西、内蒙古、辽宁、大连、吉林、黑龙江、上海、江苏、无锡、常
+州、浙江、温州、宁波、安徽、江西、福建、厦门、山东、青岛、苏州、河南、湖北、湖南、广东、东莞、深圳、海南、广西、四川、重庆、贵州、云南、陕西、甘
+肃、新疆、宁夏、青海、西藏有分支机构。</p>
+
+<p>6、投保份数：每位被保险人最多投保一份，多投无效；</p>
+
+<p>7、本产品的生存受益人限为被保险人本人；身故保险金受益人仅为被保险人的法定继承人，不受理其他指定或变更。</p>
+
+<p>8、咨询及建议请拨打太平洋保险24小时官方客服热线：95500，或联系太平洋保险陈经理：18576768067。</p>
+
+<p>9、电子保单的查询及验真请登录太平洋保险官方网站<a href="http://www.cpic.com.cn/">www.cpic.com.cn</a>。</p>
+<br>服务告知<br> 1、为了保障您的合法权益，请您提供准确、完整的姓名、证件号码、出生日期及出行时间，因信息不正确导致的保险拒赔等后果，由预订人自行承担。<br> 2、您可通过网上银行、信用卡或银联在线、支付宝、微信支付等第三方支付平台支付保险费。<br> 3、保险以电子保单形式承保，根据《中华人民共和国合同法》第十一条规定，数据电文是合法的合同表现形式。电子保单与纸质保单具有同等法律效力，请您妥善保存。<br> 4、您可在购买保险成功后，在“会员中心”-“出游订单”中查看、下载电子保单。如有疑问，请咨询途牛。<br> 5、如需保险发票，请参见“发票信息”。<br> 6、保险经纪服务提供方：途牛保险经纪有限公司，网址：<a
+                                     href="http://www.tuniuins.com/" target="_blank">http://www.tuniuins.com</a>。您充分阅读并接受《保险经纪委托合同及客户告知书》详情地址：<a
+                                     href="http://baoxian.tuniu.com/ins/resource/bxjjwtht" target="_blank">http://baoxian.tuniu.com/ins/resource/bxjjwtht</a>，同意委托途牛保险经纪有限公司办理保险业务。<br></div>
+                     </div>
+
+                     <div class="resources-panel">
+                         <span class="resources-panel-title"><i class="icon title-icon"></i>详细信息请阅读</span>
+                         <p class="c9"><a href="http://www.tuniu.com/help/detail/130#TP_QX" target="_blank"
+                                          class="f-active-color">保险条款</a></p>
+                     </div>
+
+                 </div>
+                <span class="icon white-triangle"></span>
+                <div class="clear-float"></div>
+             </div>
+            </em>
+        </span>
+                        <span class="price"><em>￥300</em>/人</span>
+                        <span class="select-box">
+                            <label class="input_checkbox enabled">
+                                <!--<span class="tn_fontface"></span>-->
+                                <input type="checkbox" money="300" checked="checked" name="bx">
+                            </label>
+                        </span>
+                    </div>
+
+
+                    <div class="more-insurance">
+                        <span>更多保险<i class="icon more-select-icon"></i></span>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- 优惠 -->
+            <!--<div class="modular m-favourable" id="m-favourable" style="opacity: 1; display: block;">-->
+            <!--<h2>-->
+            <!--<span class="icon favourable-icon"></span>-->
+            <!--<span class="m-title">优惠方案</span>-->
+            <!--<span class="m-title-desc"></span>-->
+            <!--</h2>-->
+            <!--<div class="modular-body">-->
+            <!--<ul class="list J_list">-->
+            <!--<li class="list_coupon_form">-->
+            <!--<span class="col1">优惠券</span>-->
+            <!--<span class="col2 coupon_unlogin_tip">如果您有优惠券号或者账户中已绑定了优惠券，请<a-->
+            <!--class="coupon_login_btn J_LoginBtn" href="javascript:;">登录</a>后使用</span>-->
+            <!--</li>-->
+            <!--<li class="list_row  ">-->
+            <!--<span class="col1">套餐优惠</span>-->
+            <!--<span class="col2">-->
+            <!--<span class="detail-wrapper f-active-color ">-->
+            <!--出境优惠100元/人-->
+
+            <!--<div class="resources-detail" style="display: none;">-->
+            <!--<div class="close-detail"><i class="icon close-icon"></i></div>-->
+            <!--<div class="resources">-->
+            <!--<div class="resources-panel">-->
+            <!--<div class="c9">1、预订指定线路指定团期现金立减100元/人，提交订单时，勾选“立减优惠”即可扣减相应金额，保险不含。<br>2、儿童同行不享受该优惠政策。（儿童标准以途牛旅游网具体产品线路“费用说明”中公布为准）。<br>3、此活动与其他立减互斥<br>4、本次活动按双人出行共用一间房核算单人价格，最终成行价格将根据所选出发日期、住宿房型、交通以及所选附加服务不同而有所不同，以客服与您确认需求后核算价格为准。<br>5、途牛旅游网在法律允许的范围内保留对本次活动的变更权。</div>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--<span class="icon white-triangle"></span>-->
+            <!--<div class="clear-float"></div>-->
+            <!--</div>-->
+            <!--</span>-->
+            <!--</span>-->
+            <!--<span class="col3">-￥100</span>-->
+            <!--<span class="col4">-->
+            <!--<label class="input_checkbox   ">-->
+            <!--<span class="tn_fontface"></span>-->
+            <!--</label>-->
+            <!--</span>-->
+            <!--</li>-->
+            <!--<li class="list_row  hide no-border">-->
+            <!--<span class="col1">通用优惠</span>-->
+            <!--<span class="col2">-->
+            <!--<span class="detail-wrapper f-active-color">-->
+            <!--抵用券-->
+            <!--<div class="resources-detail" style="display: none;">-->
+            <!--<div class="close-detail"><i class="icon close-icon"></i></div>-->
+            <!--<div class="resources">-->
+            <!--<div class="resources-panel">-->
+            <!--<div class="c9">途牛五星会员享受任意时间预订产品时抵用券双倍使用特权。<a href="http://www.tuniu.com/static/yh/"-->
+            <!--target="_blank">什么是抵用劵?</a></div>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--<span class="icon white-triangle"></span>-->
+            <!--<div class="clear-float"></div>-->
+            <!--</div>-->
+            <!--</span>-->
+            <!--</span>-->
+            <!--<span class="col3">￥0</span>-->
+            <!--<span class="col4">-->
+            <!--<label class="input_checkbox  ">-->
+            <!--<span class="tn_fontface"></span>-->
+            <!--</label>-->
+            <!--</span>-->
+            <!--</li>-->
+            <!--<li class="list_row coupon_row T_tour_coupon ">-->
+            <!--<span class="col1">券类优惠</span>-->
+            <!--<span class="col2">-->
+            <!--<span class="detail-wrapper f-active-color no-cursor">旅游券 账户总余额：￥0，本次可用：¥0</span>-->
+            <!--</span>-->
+            <!--<span class="col3"><label>本次使用：<input class="J_travel_coupon" placeholder="输入金额"-->
+            <!--type="text"></label></span>-->
+            <!--<span class="col4"></span>-->
+            <!--</li>-->
+
+
+            <!--<li class="list_row coupon_row">-->
+            <!--<span class="col1">合作卡</span>-->
+            <!--<span class="col2"><a class="bind-cards" id="J_bind_cards">绑定</a></span>-->
+            <!--<span class="col3"></span>-->
+            <!--<span class="col4"></span>-->
+            <!--</li>-->
+
+
+            <!--<li class="list_row no-border ">-->
+            <!--<span class="col1">返赠品</span>-->
+            <!--<span class="col2">-->
+            <!--<span class="detail-wrapper f-active-color">-->
+            <!--购出境跟团指定线路，赠价值688元VIPKID在线英语体验课程包一份-->
+            <!--<div class="resources-detail" style="display: none;">-->
+            <!--<div class="close-detail"><i class="icon close-icon"></i></div>-->
+            <!--<div class="resources">-->
+            <!--<div class="resources-panel">-->
+            <!--<div class="c9">1、活动时间：2018年12月30号止<br>2、活动对象：购买本产品<br>3、参与城市：任意城市均可参加<br>4、参与条件及规则：<br>1）购买途牛指定产品的会员即可获得688元VIPKID在线英语体验课程包一份，先到先得，赠完即止。<br>2）课程包包括：1次英语测试，1份英语测评报告，1节在线外教1对1课程，4节外教精品课程<br>3）体验包使用方式：点击短信中的领取链接，进行课程包领取<br>4）课程包领取后会有专人跟您预约课程上课时间，请合理安排您孩子的课程时间。<br>5）父母本人领取，限vipkid新用户，且上课时需要视频上课设备（电脑或者IPAD）。<br></div>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--<span class="icon white-triangle"></span>-->
+            <!--<div class="clear-float"></div>-->
+            <!--</div>-->
+            <!--</span>-->
+            <!--</span>-->
+            <!--<span class="col3"></span>-->
+            <!--<span class="col4">-->
+            <!--<label class="input_checkbox ">-->
+            <!--<span class="tn_fontface"></span>-->
+            <!--</label>-->
+            <!--</span>-->
+            <!--</li>-->
+
+            <!--<li class="list_row hide">-->
+            <!--<span class="col1"></span>-->
+            <!--<span class="dev-address"></span>-->
+            <!--</li>-->
+            <!--<li class="list_row last-fan-zen no-border">-->
+            <!--<span class="col1"></span>-->
+            <!--<span class="col2">-->
+
+            <!--<a class="bind-cards" id="J_change_address">赠送配送地址</a>-->
+            <!--<span class="dev-address-notice jtxz-detail-hover">-->
+            <!--<i class="icon notice2-icon"></i>-->
+            <!--<div class="jtxz-detail2 auto-width">-->
+            <!--<p class="YD_mgb">下单后您可以前往会员中心我的订单中添加寄送地址</p>-->
+            <!--<span class="z">◆</span>-->
+            <!--<span class="j">◆</span>-->
+            <!--</div>-->
+            <!--</span>-->
+
+            <!--</span>-->
+            <!--</li>-->
+
+
+            <!--</ul>-->
+            <!--</div>-->
+            <!--</div>-->
+
+            <!-- 联系人 -->
+            <div class="modular m-contact" id="m-contact" style="display: block; opacity: 1;"><h2>
+                <span class="icon contact-icon"></span>
+                <span class="m-title">联系人信息</span>
+            </h2>
+                <div class="modular-body">
+                    <div class="panel">
+                        <div class="panel-group name">
+                            <div class="panel-title"><em class="stars">* </em>姓名：</div>
+                            <div class="panel-body">
+                                <input class="field-input input-name" id="lxrName" placeholder="如：张三" type="text">
+                            </div>
+                            <div class="error-tips"><i class="icon error-icon"></i><span>姓名为空</span></div>
+                        </div>
+
+
+                        <div class="panel-group tel mobile">
+                            <div class="panel-title"><em class="stars">* </em>联系电话：</div>
+                            <div class="panel-body">
+                                <input class="field-input area-code" readonly="readonly" data-telcountryid="40"
+                                       value="0086" type="text"><input id="lxrPhone" class="field-input input-tel" type="text">
+                            </div>
+                            <div class="error-tips"><i class="icon error-icon"></i><span>手机为空</span></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- 出游人 -->
+            <div class="modular m-tourist" id="m-tourist" style="display: block; opacity: 1;"><h2>
+                <a class="m-more hide" id="J_tourist_detail_switch">展开</a>
+                <span class="icon tourist-icon"></span>
+                <span class="m-title">出游人信息</span>
+                <span class="m-title-desc hide" id="J_no_write_tips">为避免价格变动，请在提交订单后30分钟内前往我的订单添加出游人。</span>
+            </h2>
+                <div class="modular-body" id="J_tourist_detail">
+                    <div class="tourist-tips">
+
+
+                        <p class="first-tip">· 请确认所填写信息与所持证件信息一致，因信息不完整，填写不正确造成的额外损失、保险拒赔等问题，我司不承担相应责任，需由客人自行承担。</p>
+                        <p>· 大于2周岁不满12周岁的儿童不可使用出生证明，请使用身份证、户口簿等，乘机请携带填写的相应证件。</p>
+
+
+                        <p class="gang-ao-in-side-airplane-tip hide" style="display: none;">·
+                            进出香港/澳门请携带有效港澳通行证，乘机请携带填写的相应证件，港澳通行证不作为国内航班有效乘机证件。</p>
+                    </div>
+                    <div class="tourist-main hide" style="display: block;">
+                        <span class="tourist-title"><i class="icon common-tourist-icon"></i>常用出游人</span>
+                        <div class="common-tourist-list">
+                            <ul class="tourist_list J_tourist_list" id="J_PassFavors" style="display: none;"></ul>
+                            <a class="tourist_more" style="display: block;">更多常用游客<i class="icon more-tourist-icon"></i></a>
+                            <div class="clear-float"></div>
+                        </div>
+                    </div>
+                    <form action="" id="tianchongform">
+                        <div id="tianchong"></div>
+                    </form>
+                    <!--<div class="J_tourist_info" id="J_Passes">-->
+                    <!--<div>-->
+                    <!--<div class="tourist_info mt20 expanded" data-type="adult">-->
+                    <!--<div class="fl-panel">-->
+                    <!--<div class="top">-->
+                    <!--<input class="field_input touristType" type="hidden">第<span class="num">1</span>位-->
+                    <!--</div>-->
+                    <!--<div class="bottom ">-->
+                    <!--成人-->
+                    <!--</div>-->
+                    <!--</div>-->
+
+                    <!--<div class="fr-panel">-->
+                    <!--<div class="field J_name">-->
+                    <!--<label class="field_label"><em class="stars">* </em>中文姓名：</label>-->
+                    <!--<input class="field_input " placeholder="请与证件保持一致" type="text">-->
+                    <!--&lt;!&ndash;填写说明&ndash;&gt;-->
+                    <!--<div class="instructions write-tips-hover">填写说明-->
+                    <!--<div class="write_tips_box">-->
+                    <!--<div class="cardImg">-->
+                    <!--<ul class="change_card_img_tab">-->
+                    <!--<li class="card_name activity" data-cardimg="oldHuzhao">老版护照-->
+                    <!--</li>-->
+                    <!--<li class="card_name" data-cardimg="newHuzhao">新版护照</li>-->
+                    <!--<li class="card_name" data-cardimg="gangao">港澳通行证</li>-->
+                    <!--<li class="card_name" data-cardimg="taiwan">台湾通行证</li>-->
+                    <!--</ul>-->
+                    <!--<ul class="card_img">-->
+                    <!--<li class="oldHuzhao_img">-->
+                    <!--<img src="images/Settlement_image/huzhao/card_img_oldhuzhao.png">-->
+                    <!--</li>-->
+                    <!--<li class="newHuzhao_img hide">-->
+                    <!--<img src="images/Settlement_image/huzhao/card_img_newhuzhao.png">-->
+                    <!--</li>-->
+                    <!--<li class="gangao_img hide">-->
+                    <!--<img src="images/Settlement_image/huzhao/card_img_gangao.png">-->
+                    <!--</li>-->
+                    <!--<li class="taiwan_img hide">-->
+                    <!--<img src="images/Settlement_image/huzhao/card_img_taiwan.png">-->
+                    <!--</li>-->
+                    <!--</ul>-->
+
+                    <!--</div>-->
+                    <!--<div class="write_note">-->
+                    <!--<p class="rule_tips">*请严格按照所选证件线上的信息填写</p>-->
+                    <!--<p class="notes">填写说明</p>-->
+                    <!--<ul>-->
+                    <!--<li>1.乘客姓名需与所选证件上的名字一致。</li>-->
+                    <!--<li>2.中文姓名:-->
+                    <!--<p>·若持护照登机,必须确认护照上有中文姓名。</p>-->
+                    <!--<p>·生僻字可用拼音代替,例如:"王赟"可输入为"王yun"。</p>-->
+                    <!--</li>-->
+                    <!--<li>3.英文姓名:-->
+                    <!--<p>大陆籍游客,英文名为中文名拼音,若持护照登机,必须按照护照顺序区分姓与名,按照图示填写英文名。</p>-->
+                    <!--</li>-->
+                    <!--<li>4.英文名字的长度不可超过26个字符,-->
+                    <!--如名字过长请使用缩写,乘客的姓氏不能缩写,名可以缩写。姓氏中如包括空格请在输入时删掉空格。-->
+                    <!--</li>-->
+                    <!--</ul>-->
+                    <!--</div>-->
+                    <!--<span class="q">◆</span>-->
+                    <!--<span class="w">◆</span>-->
+                    <!--</div>-->
+                    <!--</div>-->
+                    <!--</div>-->
+
+
+                    <!--<div class="field J-english-name">-->
+                    <!--<label class="field_label"><em class="stars">* </em>英文姓名：</label>-->
+                    <!--<div class="englishNameBar T_first">-->
+                    <!--<input class="field_input english-surname" placeholder="拼音姓" type="text">-->
+                    <!--<div class="lastNameList hide"></div>-->
+                    <!--</div>-->
+                    <!--<div class="englishNameBar">-->
+                    <!--<input class="field_input english-name" placeholder="拼音名" type="text">-->
+                    <!--<div class="firstNameList hide"></div>-->
+                    <!--</div>-->
+                    <!--<div class="name-tips jtxz-detail-hover">-->
+                    <!--<i class="icon notice2-icon"></i>-->
+                    <!--<div class="jtxz-detail2 T_width2">-->
+                    <!--<p class="YD_mgb">特别提醒：大陆籍游客，英文姓名为中文姓名拼音，如姓名为张小明，则在“姓(拼音或英文)”栏中输入ZHANG;-->
+                    <!--在“名(拼音或英文)”栏中输入XIAOMING</p>-->
+                    <!--<span class="z">◆</span>-->
+                    <!--<span class="j">◆</span>-->
+                    <!--</div>-->
+                    <!--</div>-->
+                    <!--</div>-->
+
+
+                    <!--<div class="field J_card_type J_card_no">-->
+                    <!--<label class="field_label"><em class="stars">* </em>证件类型：</label>-->
+                    <!--<select class="field_select">-->
+
+                    <!--<option value="2" selected="selected">护照</option>-->
+
+                    <!--</select>-->
+
+                    <!--<input class="field_input card_no" placeholder="证件号码" type="text">-->
+
+
+                    <!--</div>-->
+
+
+                    <!--<div class="field J_sex">-->
+                    <!--<label class="field_label"><em class="stars">* </em>性别：</label>-->
+                    <!--<select class="field_select sex">-->
+                    <!--<option value="0" selected="selected">女</option>-->
+                    <!--<option value="1">男</option>-->
+                    <!--</select>-->
+                    <!--</div>-->
+
+
+                    <!--<div class="field J_card_valid_date ">-->
+                    <!--<label class="field_label"><em class="stars">* </em>证件有效期：</label>-->
+                    <!--<select class="field_select_date" data-year="">-->
+
+                    <!--<option>2016</option>-->
+
+                    <!--<option>2017</option>-->
+
+                    <!--<option>2018</option>-->
+
+                    <!--<option selected="selected">2019</option>-->
+
+                    <!--<option>2020</option>-->
+
+                    <!--<option>2021</option>-->
+
+                    <!--<option>2022</option>-->
+
+                    <!--<option>2023</option>-->
+
+                    <!--<option>2024</option>-->
+
+                    <!--<option>2025</option>-->
+
+                    <!--<option>2026</option>-->
+
+                    <!--<option>2027</option>-->
+
+                    <!--<option>2028</option>-->
+
+                    <!--<option>2029</option>-->
+
+                    <!--</select>-->
+                    <!--<select class="field_select_date" data-month="">-->
+
+                    <!--<option>1</option>-->
+
+                    <!--<option>2</option>-->
+
+                    <!--<option>3</option>-->
+
+                    <!--<option>4</option>-->
+
+                    <!--<option selected="selected">5</option>-->
+
+                    <!--<option>6</option>-->
+
+                    <!--<option>7</option>-->
+
+                    <!--<option>8</option>-->
+
+                    <!--<option>9</option>-->
+
+                    <!--<option>10</option>-->
+
+                    <!--<option>11</option>-->
+
+                    <!--<option>12</option>-->
+
+                    <!--</select>-->
+                    <!--<select class="field_select_date" data-day="">-->
+
+                    <!--<option selected="selected">1</option>-->
+
+                    <!--<option>2</option>-->
+
+                    <!--<option>3</option>-->
+
+                    <!--<option>4</option>-->
+
+                    <!--<option>5</option>-->
+
+                    <!--<option>6</option>-->
+
+                    <!--<option>7</option>-->
+
+                    <!--<option>8</option>-->
+
+                    <!--<option>9</option>-->
+
+                    <!--<option>10</option>-->
+
+                    <!--<option>11</option>-->
+
+                    <!--<option>12</option>-->
+
+                    <!--<option>13</option>-->
+
+                    <!--<option>14</option>-->
+
+                    <!--<option>15</option>-->
+
+                    <!--<option>16</option>-->
+
+                    <!--<option>17</option>-->
+
+                    <!--<option>18</option>-->
+
+                    <!--<option>19</option>-->
+
+                    <!--<option>20</option>-->
+
+                    <!--<option>21</option>-->
+
+                    <!--<option>22</option>-->
+
+                    <!--<option>23</option>-->
+
+                    <!--<option>24</option>-->
+
+                    <!--<option>25</option>-->
+
+                    <!--<option>26</option>-->
+
+                    <!--<option>27</option>-->
+
+                    <!--<option>28</option>-->
+
+                    <!--<option>29</option>-->
+
+                    <!--<option>30</option>-->
+
+                    <!--<option>31</option>-->
+
+                    <!--</select>-->
+                    <!--</div>-->
+
+
+                    <!--<div class="field J_birth_date">-->
+                    <!--<label class="field_label"><em class="stars">* </em>出生日期：</label>-->
+                    <!--<select class="field_select_date " data-year="">-->
+
+                    <!--<option class="bir">1920</option>-->
+
+                    <!--<option class="bir">1921</option>-->
+
+                    <!--<option class="bir">1922</option>-->
+
+                    <!--<option class="bir">1923</option>-->
+
+                    <!--<option class="bir">1924</option>-->
+
+                    <!--<option class="bir">1925</option>-->
+
+                    <!--<option class="bir">1926</option>-->
+
+                    <!--<option class="bir">1927</option>-->
+
+                    <!--<option class="bir">1928</option>-->
+
+                    <!--<option class="bir">1929</option>-->
+
+                    <!--<option class="bir">1930</option>-->
+
+                    <!--<option class="bir">1931</option>-->
+
+                    <!--<option class="bir">1932</option>-->
+
+                    <!--<option class="bir">1933</option>-->
+
+                    <!--<option class="bir">1934</option>-->
+
+                    <!--<option class="bir">1935</option>-->
+
+                    <!--<option class="bir">1936</option>-->
+
+                    <!--<option class="bir">1937</option>-->
+
+                    <!--<option class="bir">1938</option>-->
+
+                    <!--<option class="bir">1939</option>-->
+
+                    <!--<option class="bir">1940</option>-->
+
+                    <!--<option class="bir">1941</option>-->
+
+                    <!--<option class="bir">1942</option>-->
+
+                    <!--<option class="bir">1943</option>-->
+
+                    <!--<option class="bir">1944</option>-->
+
+                    <!--<option class="bir">1945</option>-->
+
+                    <!--<option class="bir">1946</option>-->
+
+                    <!--<option class="bir">1947</option>-->
+
+                    <!--<option class="bir">1948</option>-->
+
+                    <!--<option class="bir">1949</option>-->
+
+                    <!--<option class="bir">1950</option>-->
+
+                    <!--<option class="bir">1951</option>-->
+
+                    <!--<option class="bir">1952</option>-->
+
+                    <!--<option class="bir">1953</option>-->
+
+                    <!--<option class="bir">1954</option>-->
+
+                    <!--<option class="bir">1955</option>-->
+
+                    <!--<option class="bir">1956</option>-->
+
+                    <!--<option class="bir">1957</option>-->
+
+                    <!--<option class="bir">1958</option>-->
+
+                    <!--<option class="bir">1959</option>-->
+
+                    <!--<option class="bir">1960</option>-->
+
+                    <!--<option class="bir">1961</option>-->
+
+                    <!--<option class="bir">1962</option>-->
+
+                    <!--<option class="bir">1963</option>-->
+
+                    <!--<option class="bir">1964</option>-->
+
+                    <!--<option class="bir">1965</option>-->
+
+                    <!--<option class="bir">1966</option>-->
+
+                    <!--<option class="bir">1967</option>-->
+
+                    <!--<option class="bir">1968</option>-->
+
+                    <!--<option class="bir">1969</option>-->
+
+                    <!--<option class="bir">1970</option>-->
+
+                    <!--<option class="bir">1971</option>-->
+
+                    <!--<option class="bir">1972</option>-->
+
+                    <!--<option class="bir">1973</option>-->
+
+                    <!--<option class="bir">1974</option>-->
+
+                    <!--<option class="bir">1975</option>-->
+
+                    <!--<option class="bir">1976</option>-->
+
+                    <!--<option class="bir">1977</option>-->
+
+                    <!--<option class="bir">1978</option>-->
+
+                    <!--<option class="bir">1979</option>-->
+
+                    <!--<option class="bir">1980</option>-->
+
+                    <!--<option class="bir">1981</option>-->
+
+                    <!--<option class="bir">1982</option>-->
+
+                    <!--<option class="bir">1983</option>-->
+
+                    <!--<option class="bir">1984</option>-->
+
+                    <!--<option selected="selected" class="bir">1985</option>-->
+
+                    <!--<option class="bir">1986</option>-->
+
+                    <!--<option class="bir">1987</option>-->
+
+                    <!--<option class="bir">1988</option>-->
+
+                    <!--<option class="bir">1989</option>-->
+
+                    <!--<option class="bir">1990</option>-->
+
+                    <!--<option class="bir">1991</option>-->
+
+                    <!--<option class="bir">1992</option>-->
+
+                    <!--<option class="bir">1993</option>-->
+
+                    <!--<option class="bir">1994</option>-->
+
+                    <!--<option class="bir">1995</option>-->
+
+                    <!--<option class="bir">1996</option>-->
+
+                    <!--<option class="bir">1997</option>-->
+
+                    <!--<option class="bir">1998</option>-->
+
+                    <!--<option class="bir">1999</option>-->
+
+                    <!--<option class="bir">2000</option>-->
+
+                    <!--<option class="bir">2001</option>-->
+
+                    <!--<option class="bir">2002</option>-->
+
+                    <!--<option class="bir">2003</option>-->
+
+                    <!--<option class="bir">2004</option>-->
+
+                    <!--<option class="bir">2005</option>-->
+
+                    <!--<option class="bir">2006</option>-->
+
+                    <!--<option class="bir">2007</option>-->
+
+                    <!--<option class="bir">2008</option>-->
+
+                    <!--<option class="bir">2009</option>-->
+
+                    <!--<option class="bir">2010</option>-->
+
+                    <!--<option class="bir">2011</option>-->
+
+                    <!--<option class="bir">2012</option>-->
+
+                    <!--<option class="bir">2013</option>-->
+
+                    <!--<option class="bir">2014</option>-->
+
+                    <!--<option class="bir">2015</option>-->
+
+                    <!--<option class="bir">2016</option>-->
+
+                    <!--</select>-->
+                    <!--<select class="field_select_date " data-month="">-->
+
+                    <!--<option selected="selected">1</option>-->
+
+                    <!--<option>2</option>-->
+
+                    <!--<option>3</option>-->
+
+                    <!--<option>4</option>-->
+
+                    <!--<option>5</option>-->
+
+                    <!--<option>6</option>-->
+
+                    <!--<option>7</option>-->
+
+                    <!--<option>8</option>-->
+
+                    <!--<option>9</option>-->
+
+                    <!--<option>10</option>-->
+
+                    <!--<option>11</option>-->
+
+                    <!--<option>12</option>-->
+
+                    <!--</select>-->
+                    <!--<select class="field_select_date last" data-day="">-->
+
+                    <!--<option selected="selected">1</option>-->
+
+                    <!--<option>2</option>-->
+
+                    <!--<option>3</option>-->
+
+                    <!--<option>4</option>-->
+
+                    <!--<option>5</option>-->
+
+                    <!--<option>6</option>-->
+
+                    <!--<option>7</option>-->
+
+                    <!--<option>8</option>-->
+
+                    <!--<option>9</option>-->
+
+                    <!--<option>10</option>-->
+
+                    <!--<option>11</option>-->
+
+                    <!--<option>12</option>-->
+
+                    <!--<option>13</option>-->
+
+                    <!--<option>14</option>-->
+
+                    <!--<option>15</option>-->
+
+                    <!--<option>16</option>-->
+
+                    <!--<option>17</option>-->
+
+                    <!--<option>18</option>-->
+
+                    <!--<option>19</option>-->
+
+                    <!--<option>20</option>-->
+
+                    <!--<option>21</option>-->
+
+                    <!--<option>22</option>-->
+
+                    <!--<option>23</option>-->
+
+                    <!--<option>24</option>-->
+
+                    <!--<option>25</option>-->
+
+                    <!--<option>26</option>-->
+
+                    <!--<option>27</option>-->
+
+                    <!--<option>28</option>-->
+
+                    <!--<option>29</option>-->
+
+                    <!--<option>30</option>-->
+
+                    <!--<option>31</option>-->
+
+                    <!--</select>-->
+                    <!--</div>-->
+                    <!--<div class="field J_mobile_no">-->
+                    <!--<label class="field_label"><em class="stars">* </em>手机号码：</label>-->
+                    <!--<input class="field_input internation_code_box" readonly="readonly"-->
+                    <!--placeholder="国际区号" value="0086" data-telcountryid="40" type="text">- -->
+                    <!--<input class="field_input mobile_box" type="text">-->
+                    <!--</div>-->
+                    <!--<p class="tel_tips">因机票订票需要，除12岁(不含)以下儿童、70岁(含)以上老人外，所有出游人需填写手机号</p>-->
+                    <!--<p class="save-to-common"><label class="input_checkbox "><span-->
+                    <!--class="tn_fontface"></span>保存到常旅</label></p>-->
+                    <!--&lt;!&ndash;绑定资源&ndash;&gt;-->
+                    <!--</div>-->
+                    <!--<div class="function_box">-->
+                    <!--<span class="function_btn cleat_btn">清空</span>-->
+                    <!--</div>-->
+                    <!--<div class="bottom_function_box">-->
+                    <!--</div>-->
+                    <!--<div class="clear-float">-->
+                    <!--</div>-->
+                    <!--</div>-->
+                    <!--</div>-->
+                    <!--</div>-->
+                    <div class="age-tips">
+                        <p class="tourist-no-write hide" id="tourist-no-write">
+                            <button class="no-write-btn">暂不填写</button>
+                        </p>
+                        <p class="is-has-special-person is-has-older" id="isHasOlder">出游人中是否有年龄高于80岁(含)的游客？
+                            <span class="select-yes-or-no">
+                    <span class="yes">
+                        <label class="input_checkbox enabled" data-value="1">
+                            <!--<span class="tn_fontface"></span>-->
+                            <input type="radio" checked="checked" name="lr">
+                            有
+                        </label>
+                    </span>
+                    <span class="no">
+                        <label class="input_checkbox" data-value="0">
+                            <!--<span class="tn_fontface"></span>-->
+                            <input type="radio" name="lr">
+                            没有
+                        </label>
+                    </span>
+                </span>
+                        </p>
+                        <p class="no-support-info" id="no-support-info"><i class="icon notice2-icon"></i>本产品不支持孕妇出游，18周岁以下的未成年人必须有成年人陪同出游，敬请谅解！
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 签证材料确认 -->
+            <div class="modular m-visa-material" id="m-visa-material" style="display: none; opacity: 0;"></div>
+
+            <!-- 发票 -->
+            <div class="modular m-receipt" id="m-receipt" style="opacity: 1; display: block;"><h2 class="no-border">
+                <span class="icon receipt-icon"></span>
+                <span class="m-title">发票</span>
+                <span class="m-title-desc">
+        <span class="field_radio yes">
+            <!--<i class="icon or-icon"></i>-->
+            <input checked="checked" name="fp" type="radio">
+            不需要发票
+        </span>
+        <span class="field_radio need ">
+                <!--<i class="icon or-icon"></i>-->
+            <input name="fp" type="radio">
+            需要发票
+        </span>
+        <span class="c9">（您可下单后在订单详情页中添加发票）</span>
+    </span>
+            </h2>
+                <div class="modular-body hide">
+                    <div class="panel-body-main">
+                        <div class="panel-tips">
+                            <ol class="">
+                                <li><span class="dot">·</span>您添加的发票将于您出游归来后的<i> 五个工作日 </i>帮您开具；</li>
+                                <li><span class="dot">·</span>旅游费用和保险费用的发票分开，添加旅游费用发票会自动开具保险发票，优惠金额不开具发票；</li>
+                                <li><span class="dot">·</span>保险发票由保险公司为您开具，只支持开具电子发票，如您需要保险发票，添加旅游费发票请选择电子发票，每张保单开具一张电子发票，发票抬头与电子保单投保人一致；
+                                </li>
+                                <li><span class="dot">·</span>如需拆分为多张发票开具，您可在完成付款之后在我的订单 &gt; 全部订单 &gt; 订单详情页进行操作添加发票。
+                                </li>
+                            </ol>
+                        </div>
+                        <div class="panel-top">
+                            <div class="panel">
+                                <span class="title">发票种类：</span>
+                                <span class="main">
+                        <select id="receipt_selectMethod" class="filed-select electronics">
+                            <option value="2" selected="selected">电子发票</option>
+                            <option value="1">纸质发票</option>
+                        </select>
+                        <select id="receipt_selectType" class="filed-select ordinary">
+                            <option value="2" selected="selected">普通发票</option>
+                        </select>
+                    </span>
+                            </div>
+                            <div class="panel">
+                                <span class="title">发票内容：</span>
+                                <span class="main">
+                        <select class="filed-select select-type" id="receipt_selectContent">
+                            <option value="2" selected="selected">旅游费</option>
+                            <option value="4">代订交通住宿费</option>
+                        </select>
+                    </span>
+
+                            </div>
+                            <div class="panel receipt_fee hide">
+                                <span class="title">配送方式：</span>
+                                <span class="main">快递<span class="receipt_fee_count">¥10</span>
+
+                    </span>
+                            </div>
+
+                            <div class="paper-invoice ">
+                                <div class="panel">
+                                    <span class="title">发票类型：</span>
+                                    <span class="main">
+                        <span class="receipt_entityType receipt_entityTypePerson ">个人</span>
+                        <span class="receipt_entityType receipt_entityTypeCompany activity">公司</span>
+                    </span>
+                                </div>
+
+                                <div class="panel">
+                                    <span class="title">发票抬头：</span>
+                                    <span class="main">
+                            <input class="field-input receipt-input J_receipt_title" placeholder="请填写公司名称" type="text">
+                            <span class="err_tips err_receiptTitle"></span>
+                            <ul class="J_receipt_title_list" style="display: none;">
+
+                            </ul>
+                        </span>
+                                </div>
+                                <div class="panel">
+                                    <span class="title">纳税人识别号：</span>
+                                    <span class="main">
+                            <input class="field-input receipt-input receipt_identification_number"
+                                   placeholder="请填写纳税人识别号" type="text">
+                            <span class="err_tips err_checkIdFailed"></span>
+                            <span class="err_tips err_emptyCheckId"></span>
+                        </span>
+                                </div>
+
+
+                            </div>
+                            <div class="paper-invoice hide">
+                                <div class="panel">
+                                    <span class="title">发票抬头：</span>
+                                    <span class="main">
+                        <input class="field-input receipt-input J_receipt_title" placeholder="请填写个人姓名或公司名称" type="text">
+                        <span class="err_tips err_receiptTitle"></span>
+                        <ul class="J_receipt_title_list" style="display: none;">
+
+                        </ul>
+                    </span>
+                                </div>
+                                <div class="panel">
+                                    <span class="title">纳税人识别号：</span>
+                                    <span class="main">
+                        <input class="field-input receipt-input receipt_identification_number" placeholder=""
+                               type="text">
+                        <span class="err_tips err_checkIdFailed"></span>
+                        <span class="err_tips err_emptyCheckId"></span>
+                    </span>
+                                </div>
+                                <div class="panel">
+                                    <span class="title">注册地址：</span>
+                                    <span class="main">
+                        <input class="field-input receipt-input receipt_register_address" placeholder="" type="text">
+                        <span class="err_tips err_registeraddress"></span>
+                    </span>
+                                </div>
+                                <div class="panel">
+                                    <span class="title">注册电话：</span>
+                                    <span class="main">
+                        <input class="field-input receipt-input receipt_register_phone" placeholder="" type="text">
+                        <span class="err_tips err_registerPhone"></span>
+                        <span class="err_tips err_formatPhone"></span>
+                    </span>
+                                </div>
+                                <div class="panel">
+                                    <span class="title">开户银行：</span>
+                                    <span class="main">
+                        <input class="field-input receipt-input receipt_register_bank" placeholder="" type="text">
+                        <span class="err_tips err_registerBank"></span>
+                    </span>
+                                </div>
+                                <div class="panel">
+                                    <span class="title">银行账户：</span>
+                                    <span class="main">
+                        <input class="field-input receipt-input receipt_bank_account" placeholder="" type="text">
+                        <span class="err_tips err_bankAccount"></span>
+                        <span class="err_tips err_formatBAccount"></span>
+                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel-bottom">
+                            <div class="fill-in-electronic-invoice ">
+                                <div class="panel">
+                                    <span class="title">手机号码：</span>
+                                    <span class="main">
+                        <input class="field-input receipt-input receipt_contact_phone" placeholder="请输入手机号码"
+                               type="text">
+                        <span class="err_tips err_contactPhone"></span>
+                        <span class="err_tips err_tel"></span>
+                    </span>
+                                </div>
+                                <div class="panel">
+                                    <span class="title">邮箱：</span>
+                                    <span class="main">
+                        <input class="field-input receipt-input receipt_contact_email" placeholder="用来接收电子发票邮件，可选填"
+                               type="text">
+                        <span class="err_tips err_formatEmail"></span>
+                    </span>
+                                </div>
+                            </div>
+
+                            <div class="fill-in-paper-invoice hide">
+
+                                <div class="panel-content delivery-address-list">
+
+                                    <div class="panel delivery-address-add">
+                                        <div class="panel-main"><img class="add-address"
+                                                                     src="images/Settlement_image/add.png"
+                                                                     alt=""></div>
+                                        <div class="add-text">添加配送地址</div>
+                                    </div>
+                                    <div class="clear-float"></div>
+                                </div>
+
+
+                                <div class="receipt-new-address-form hide">
+
+                                    <div>
+                                        <span class="add-consignee-info">添加收货人信息</span>
+                                    </div>
+
+                                    <table>
+                                        <tbody>
+                                        <tr>
+                                            <td class="receipt_info_title">收件人</td>
+                                            <td>
+                                                <input id="J_new_address_name" class="new_address_input" maxlength="10"
+                                                       placeholder="请输入收件人姓名" onfocus="this.placeholder=''"
+                                                       onblur="this.placeholder='请输入收件人姓名'" type="text">
+                                                <span class="err_tips err_name"></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="receipt_info_title">手机号</td>
+                                            <td>
+                                                <input id="J_new_address_phone" class="new_address_input"
+                                                       placeholder="请输入收件人手机号码" onfocus="this.placeholder=''"
+                                                       onblur="this.placeholder='请输入收件人手机号码'" type="text">
+                                                <span class="err_tips err_tel"></span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="receipt_info_title">所在地区</td>
+                                            <td>
+                                                <select name="" id="J_new_address_province">
+                                                    <option selected="selected" value="">省</option>
+                                                    <option value="安徽_100">安徽</option>
+                                                    <option value="北京_200">北京</option>
+                                                    <option value="重庆_300">重庆</option>
+                                                    <option value="福建_400">福建</option>
+                                                    <option value="甘肃_500">甘肃</option>
+                                                    <option value="广东_600">广东</option>
+                                                    <option value="广西_700">广西</option>
+                                                    <option value="贵州_800">贵州</option>
+                                                    <option value="海南_900">海南</option>
+                                                    <option value="河北_1000">河北</option>
+                                                    <option value="黑龙江_1100">黑龙江</option>
+                                                    <option value="河南_1200">河南</option>
+                                                    <option value="香港_1300">香港</option>
+                                                    <option value="湖北_1400">湖北</option>
+                                                    <option value="湖南_1500">湖南</option>
+                                                    <option value="江苏_1600">江苏</option>
+                                                    <option value="江西_1700">江西</option>
+                                                    <option value="吉林_1800">吉林</option>
+                                                    <option value="辽宁_1900">辽宁</option>
+                                                    <option value="澳门_2000">澳门</option>
+                                                    <option value="内蒙古_2100">内蒙古</option>
+                                                    <option value="宁夏_2200">宁夏</option>
+                                                    <option value="青海_2300">青海</option>
+                                                    <option value="山东_2400">山东</option>
+                                                    <option value="上海_2500">上海</option>
+                                                    <option value="山西_2600">山西</option>
+                                                    <option value="陕西_2700">陕西</option>
+                                                    <option value="四川_2800">四川</option>
+                                                    <option value="台湾_2900">台湾</option>
+                                                    <option value="天津_3000">天津</option>
+                                                    <option value="新疆_3100">新疆</option>
+                                                    <option value="西藏_3200">西藏</option>
+                                                    <option value="云南_3300">云南</option>
+                                                    <option value="浙江_3400">浙江</option>
+                                                    <option value="欧洲_3600">欧洲</option>
+                                                    <option value="北美洲_3700">北美洲</option>
+                                                    <option value="南美洲_3800">南美洲</option>
+                                                    <option value="亚洲_3900">亚洲</option>
+                                                    <option value="非洲_4000">非洲</option>
+                                                    <option value="大洋洲_4100">大洋洲</option>
+                                                </select>
+                                                <select name="" id="J_new_address_city">
+                                                    <option selected="selected" value="">市</option>
+                                                </select>
+                                                <span class="err_tips err_city err_province"></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="receipt_info_title new_detailed_address">详细地址</td>
+                                            <td>
+                                                <textarea id="J_new_address_address"
+                                                          class="new_address_input detailed_address">不需要重复填写省市区，不小于5个字符，不超过120个字符</textarea>
+                                                <span class="err_tips err_address control"></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="new_address_sub_title"></td>
+                                            <td>
+                                                <button class="btn address_add">保存</button>
+                                                <button class="btn address_cancel">取消</button>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="clear-float"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 客服下单备注信息 -->
+            <div class="modular m-remark" id="m-remark" style="opacity: 0;"></div>
+
+        </div>
+
+        <!-- 价格明细 -->
+        <div class="price-calculate" id="m-price-calculate"
+             style="top: 160px; left: 951px; margin-top: 0px; position: absolute;">
+            <div class="settlement-infor">
+                <div class="info-left"></div>
+                <div class="info-middle">结算信息</div>
+                <div class="info-right"></div>
+            </div>
+            <div class="price-main">
+                <div class="price-info" style="max-height: 564.6px;">
+                    <div class="T_scroll_main" style="max-height: 564px;">
+                        <div class="T_slide" style="top: 0px; padding-right: 10px;">
+                            <div class="panel" id="Adult">
+
+                            </div>
+                            <!--<div class="panel">-->
+                            <!--<p class="price-detail-title">-->
+                            <!--<span class="title">机票差额</span>-->
+                            <!--<span class="main">￥154</span>-->
+                            <!--</p>-->
+                            <!--<p class="price-detail">-->
+                            <!--<span class="subtitle"></span>-->
+                            <!--成人￥154x1-->
+                            <!--</p>-->
+                            <!--</div>-->
+                            <div class="panel" style="display: none" id="dfc">
+                                <p class="price-detail-title only-title">
+                                    <span class="title">单房差费用</span>
+                                    <span class="main">￥4000</span>
+                                </p>
+                            </div>
+                            <div class="panel" id="bxxx">
+                                <!--<p class="price-detail-title">-->
+                                    <!--<span class="title">保险费用</span>-->
+                                    <!--<span class="main">￥495</span>-->
+                                <!--</p>-->
+                                <!--<p class="price-detail">-->
+                                    <!--<span class="subtitle"-->
+                                          <!--title="日本财险境外旅游升级版(适用于出游8~10天)">日本财险境外旅游升级版(适用于出游8~10天)</span>-->
+                                    <!--￥195x1-->
+                                <!--</p>-->
+
+                                <!--<p class="price-detail">-->
+                                    <!--<span class="subtitle" title="太平洋旅程取消险方案11">太平洋旅程取消险方案11</span>-->
+                                    <!--￥300x1-->
+                                <!--</p>-->
+                            </div>
+                        </div>
+                        <div class="T_scroll_wrapper" style="display: none; height: 281px;">
+                            <div class="T_scroll_obj" style="height: 281px; top: 0px;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="total-price">
+                <div class="price-wrapepr">总价
+                    <span class="price" id="countMoney"></span>
+                    <div class="clear-float"></div>
+                </div>
+
+                <span class="payments">
+        （<span class="stages-price total-price-hover">
+            首付￥1292.00+￥622.00×24期，4种分期可选
+            <div class="total-price-detail2 T_width2">
+                <p class="tips">可选期数(4种分期)</p>
+
+
+                <div class="panel ">
+                    <div class="main panel-left"><span>分6期</span></div>
+                    <div class="main panel-right">
+                         <p class="tips1">首付￥1298.00+￥2487.00×6期</p>
+                         <p class="tips2">(另收分期服务费:费率1.00% ￥149.22/期)</p>
+                    </div>
+                    <div class="clear-float"></div>
+                </div>
+
+                <div class="panel ">
+                    <div class="main panel-left"><span>分12期</span></div>
+                    <div class="main panel-right">
+                         <p class="tips1">首付￥1292.00+￥1244.00×12期</p>
+                         <p class="tips2">(另收分期服务费:费率1.00% ￥149.28/期)</p>
+                    </div>
+                    <div class="clear-float"></div>
+                </div>
+
+                <div class="panel ">
+                    <div class="main panel-left"><span>分18期</span></div>
+                    <div class="main panel-right">
+                         <p class="tips1">首付￥1298.00+￥829.00×18期</p>
+                         <p class="tips2">(另收分期服务费:费率1.00% ￥149.22/期)</p>
+                    </div>
+                    <div class="clear-float"></div>
+                </div>
+                <div class="panel ">
+                    <div class="main panel-left"><span>分24期</span></div>
+                    <div class="main panel-right">
+                         <p class="tips1">首付￥1292.00+￥622.00×24期</p>
+                         <p class="tips2">(另收分期服务费:费率1.00% ￥149.28/期)</p>
+                    </div>
+                    <div class="clear-float"></div>
+                </div>
+                <span class="z">◆</span>
+                <span class="j">◆</span>
+            </div>
+     </span>）
+    </span>
+            </div>
+        </div>
+        <div class="clear-float"></div>
+    </div>
+
+    <!-- 页脚 -->
+    <div class="footer" id="m-footer">
+        <div class="footer-main">
+
+            <div class="click-to-agree">
+                <label class="input_checkbox ">
+                    <!--<span class="tn_fontface"></span>-->
+                    <input type="checkbox" id="ty">
+                    我已阅读并同意 <em class="contract-name">旅游合同、保险条款、保险经纪委托合同及客户告知书、特别预订提示、安全提示</em>
+                </label>
+            </div>
+
+            <div class="next">
+                <button id="sub" href="javascript:;">
+                    提交订单
+                </button>
+            </div>
+            <div class="clear-float"></div>
+        </div>
+    </div>
+
+    <!-- 版权信息 -->
+    <div class="copyright">Copyright © 2006-2018 途牛旅游网 Tuniu.com</div>
+    .
+    <!-- 合同、预订须知 -->
+    <div class="order-agreement" id="m-agreement"></div>
+
+    <!-- 机票弹窗 -->
+    <div class="float-panel float-airplane" id="m-float-airplane"></div>
+
+    <!-- 火车票弹窗 -->
+    <div class="float-panel float-train" id="m-float-train">
+        <header class="float-header">
+            <h2 class="active">更换火车票</h2>
+            <span><i class="icon book-close"></i></span>
+        </header>
+
+        <div class="T_loading"></div>
+
+        <div class="T_main hide">
+
+        </div>
+
+        <div class="T_button">
+            <button class="T_confirm">--</button>
+            <button class="T_cancel">取消</button>
+        </div>
+
+    </div>
+
+    <!-- 汽车票弹窗 -->
+    <div class="float-panel float-bus" id="m-float-bus"></div>
+
+    <!-- 新汽车票弹窗 -->
+    <div class="float-panel float-bus-new" id="m-float-bus-new">
+        <div class="float-bg"></div>
+        <div class="float-content">
+            <header class="float-header">
+                <!--<h2 class="package hide">优惠组合</h2>-->
+                <h2 class="custom hide">自由组合</h2>
+                <span><i class="icon book-close T_cancel"></i></span>
+            </header>
+
+            <div class="cf-content">
+                <div class="package hide"></div>
+                <div class="custom hide"></div>
+            </div>
+            <div class="cf-winbtns">
+                <div class="cf-winbtns-ok disabled">确认</div>
+                <div class="cf-winbtns-cancel T_cancel">取消</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 联运弹窗 -->
+    <div class="float-panel float-multi-transport" id="m-float-multi-transport">
+        <div class="float-bg"></div>
+        <div class="float-content">
+            <header class="float-header">
+                <h2 class="active">选择联运交通</h2>
+                <span><i class="icon book-close T_cancel"></i></span>
+            </header>
+
+            <div class="T_body">
+
+            </div>
+            <div class="T_foot">
+                <button class="T_confirm T_disabled">确定</button>
+                <button class="T_cancel">取消</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 更改酒店弹窗 -->
+    <div id="allHotelPath" class="allHotelPath">
+        <div id="iframeContainer"></div>
+    </div>
+    <div class="all_hotel_path_bg"></div>
+
+    <!-- 可选产品弹窗 -->
+    <div class="float-panel float-optional" id="m-float-optional"></div>
+
+    <!-- 配送地址弹窗 -->
+    <div class="float-panel float-delivery" id="m-float-delivery"></div>
+</div>
+<!-- 数据 -->
+<script type="text/javascript" src="js/Settlement_js/shuju.js"></script>
+<!-- 外部js -->
+<script src="js/Settlement_js/fps.js"
+        crossorigin=""></script>
+<script type="text/javascript"
+        src="js/Settlement_js/tac.js"></script>
+<!-- 外部在线客服js -->
+<script type="text/javascript"
+        src="js/Settlement_js/isShowChatEntry.js"
+        crossorigin=""></script>
+<!-- 我们的js -->
+<script type="text/javascript"
+        src="js/Settlement_js/webpack_dll_libs.js"
+        crossorigin=""></script>
+<!--<script type="text/javascript" src="js/Settlement_js/entry_bundle.js" crossorigin=""></script>-->
+<div id="channelPageSuspended"
+     style="z-index:9999;cursor: pointer;position:fixed;bottom:160px;right: 30px;width:40px;text-align: center;line-height: 40px;font-size: 14px;color: #f80;font-family: 'Microsoft YaHei'">
+    <ul>
+        <li style="height:40px;display:block;-moz-box-shadow:0px 0px 2px #CCCCCC;-webkit-box-shadow:0px 0px 2px #CCCCCC;box-shadow:0px 0px 2px #CCCCCC;background: url('images/Settlement_image/nav/icon-headset.png') 0 0 no-repeat;">
+            <p style="height: 40px;width: 76px;border-left: 4px solid #f80;position:absolute;left:-40px;background-color: #fff;display: none;">
+                在线客服</p></li>
+        <li style="display:none;height:40px;-moz-box-shadow:0px 0px 2px #CCCCCC;-webkit-box-shadow:0px 0px 2px #CCCCCC;box-shadow:0px 0px 2px #CCCCCC;background: url('images/Settlement_image/nav/icon-barcode.png') 0 0 no-repeat;">
+            <div style="display:none;background:url('images/Settlement_image/nav/barcode.png') 0 0 no-repeat;position: absolute;width: 150px;height: 150px;left: -160px;">
+                <div style="position:absolute;top:15px;right:-5px;width:0;height:0;border-top:5px solid transparent;border-bottom:5px solid transparent;border-left:5px solid white; "></div>
+            </div>
+        </li>
+        <li style="height:40px;display:block;-moz-box-shadow:0px 0px 2px #CCCCCC;-webkit-box-shadow:0px 0px 2px #CCCCCC;box-shadow:0px 0px 2px #CCCCCC;background: url('images/Settlement_image/nav/icon-goup.png') 0 0 no-repeat;">
+            <p style="height: 40px;width: 76px;border-left: 4px solid #f80;position:absolute;left:-40px;background-color: #fff;display:none;">
+                返回顶部</p></li>
+        <ul></ul>
+    </ul>
+</div>
+<!-- 风控 -->
+<script type="text/javascript"
+        src="js/Settlement_js/frms-fingerprint.js"></script>
+
+
+<div style="visibility: hidden; position: absolute;" id="userdata_el"></div>
+</body>
+</html>

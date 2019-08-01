@@ -1,0 +1,1192 @@
+/**
+ * layer CSS hack
+ */
+
+.xubox_botton .xubox_yes.xubox_botton1{
+  bottom: 38px;
+}
+
+/* Function Class */
+/* Function Class */
+/* Class */
+/* Class */
+.d_clear {
+  clear: both;
+}
+.hide {
+  display: none;
+}
+i.red {
+  font-style: normal;
+  color: #F00;
+}
+/* Variable */
+/* Code */
+/* 1200px */
+/* 三个模块 */
+.block_dwrap {
+  width: 100%;
+  background-color: #FFF;
+}
+.block_dwrap .block_wrap {
+  margin: 0 auto;
+  width: 1190px;
+}
+.block_dwrap .block_wrap .dblock {
+  margin: 20px 0;
+  width: inherit;
+  height: 540px;
+  font-family: 'Microsoft Yahei';
+}
+.block_dwrap .block_wrap .dblock .dblock_left {
+  position: relative;
+  display: inline;
+  float: left;
+  width: 255px;
+  height: 540px;
+}
+.block_dwrap .block_wrap .dblock .dblock_left img {
+  width: 255px;
+}
+.block_dwrap .block_wrap .dblock .dblock_left h1 {
+  position: absolute;
+  top: 56px;
+  left: 18px;
+  border-bottom: 1px #000 solid;
+  font-size: 34px;
+}
+.block_dwrap .block_wrap .dblock .dblock_left h2 {
+  position: absolute;
+  top: 110px;
+  left: 18px;
+  font-size: 14px;
+  letter-spacing: 3px;
+}
+.block_dwrap .block_wrap .dblock .dblock_left h3 {
+  position: absolute;
+  left: 136px;
+  bottom: 96px;
+  font-size: 16px;
+}
+.block_dwrap .block_wrap .dblock .dblock_left .select_city {
+  position: absolute;
+  left: 19px;
+  top: 137px;
+  background: none;
+}
+.block_dwrap .block_wrap .dblock .dblock_right {
+  display: inline;
+  float: left;
+  width: 935px;
+  height: 540px;
+  background-color: #F1F2F5;
+}
+.block_dwrap .block_wrap .dblock .dblock_right ul.ul_dblock {
+  margin-top: 19px;
+}
+.block_dwrap .block_wrap .dblock .dblock_right ul.ul_dblock li {
+  overflow: hidden;
+  display: inline;
+  float: left;
+  margin-left: 19px;
+  margin-bottom: 20px;
+  width: 286px;
+  height: 242px;
+  background-color: #FFF;
+}
+.block_dwrap .block_wrap .dblock .dblock_right ul.ul_dblock li .dli_top {
+  width: inherit;
+}
+.block_dwrap .block_wrap .dblock .dblock_right ul.ul_dblock li .dli_top img {
+  margin-top: 8px;
+  margin-left: 8px;
+  width: 270px;
+  height: 156px;
+  border: 0;
+}
+.block_dwrap .block_wrap .dblock .dblock_right ul.ul_dblock li .dli_tit {
+  overflow: hidden;
+  margin-top: 2px;
+  width: 274px;
+  padding: 0 6px;
+  text-align: justify;
+}
+.block_dwrap .block_wrap .dblock .dblock_right ul.ul_dblock li .dli_tit h1 {
+  width: inherit;
+  height: 40px;
+  line-height: 20px;
+  font-size: 12px;
+  color: #999;
+}
+.block_dwrap .block_wrap .dblock .dblock_right ul.ul_dblock li .dli_tit h1 b {
+  padding-right: 10px;
+  font-size: 14px;
+  font-weight: normal;
+  color: #333;
+}
+.block_dwrap .block_wrap .dblock .dblock_right ul.ul_dblock li .dli_bot {
+  overflow: hidden;
+  margin-top: 2px;
+  width: 274px;
+  height: 36px;
+  padding: 0 6px;
+  text-align: justify;
+}
+.block_dwrap .block_wrap .dblock .dblock_right ul.ul_dblock li .dli_bot h2 {
+  display: inline;
+  float: left;
+  margin-top: 2px;
+  font-size: 12px;
+  color: #F60;
+}
+.block_dwrap .block_wrap .dblock .dblock_right ul.ul_dblock li .dli_bot h2 b {
+  font-size: 18px;
+  font-weight: normal;
+}
+.block_dwrap .block_wrap .dblock .dblock_right ul.ul_dblock li .dli_bot h3 {
+  display: inline;
+  float: right;
+  margin-top: 9px;
+  margin-right: 6px;
+  font-size: 12px;
+  color: #999;
+}
+.block_dwrap .block_wrap .dblock .dblock_right ul.ul_dblock li .dli_bot a {
+  display: inline;
+  float: right;
+  margin-right: 2px;
+  width: 67px;
+  height: 25px;
+  line-height: 24px;
+  text-align: center;
+  background-color: #FF8800;
+  border-bottom: 1px #E17800 solid;
+  color: #FFF;
+}
+.block_dwrap .block_wrap .dblock .dblock_right ul.ul_dblock li .dli_bot a:hover {
+  background-color: #FF9600;
+  border-bottom: 1px #FF6600 solid;
+}
+.block_dwrap .block_wrap .dblock .dblock_right ul.ul_dblock li.li_more a.a_more {
+  display: block;
+  width: inherit;
+  height: inherit;
+}
+.block_dwrap .block_wrap .dblock .dblock_right ul.ul_dblock li.li_more a.a_more .img_more {
+  margin-top: 74px;
+  margin-left: 93px;
+  width: 96px;
+  height: 96px;
+  cursor: pointer;
+  -webkit-transition: margin-left 0.5s;
+  -moz-transition: margin-left 0.5s;
+  -ms-transition: margin-left 0.5s;
+  -o-transition: margin-left 0.5s;
+  transition: margin-left 0.5s;
+}
+.block_dwrap .block_wrap .dblock .dblock_right ul.ul_dblock li.li_more a:hover .img_more {
+  margin-left: 113px;
+}
+.block_dwrap .block_wrap .dblock .dblock_right ul.ul_dblock li:hover {
+  -webkit-box-shadow: 0px 0px 10px 0px #DDD;
+  -moz-box-shadow: 0px 0px 10px 0px #DDD;
+  box-shadow: 0px 0px 10px 0px #DDD;
+}
+/* 1000px */
+body.index1000 {
+  /* 三个模块 */
+}
+body.index1000 .block_dwrap .block_wrap {
+  width: 1000px;
+}
+body.index1000 .block_dwrap .block_wrap .dblock {
+  height: 493px;
+}
+body.index1000 .block_dwrap .block_wrap .dblock .dblock_left {
+  width: 233px;
+  height: 493px;
+}
+body.index1000 .block_dwrap .block_wrap .dblock .dblock_left img {
+  width: 233px;
+}
+body.index1000 .block_dwrap .block_wrap .dblock .dblock_left h1 {
+  top: 46px;
+  left: 16px;
+}
+body.index1000 .block_dwrap .block_wrap .dblock .dblock_left h2 {
+  top: 100px;
+  left: 16px;
+}
+body.index1000 .block_dwrap .block_wrap .dblock .dblock_left h3 {
+  left: 127px;
+  bottom: 87px;
+}
+body.index1000 .block_dwrap .block_wrap .dblock .dblock_left .select_city {
+  left: 17px;
+  top: 126px;
+}
+body.index1000 .block_dwrap .block_wrap .dblock .dblock_right {
+  width: 767px;
+  height: 493px;
+}
+body.index1000 .block_dwrap .block_wrap .dblock .dblock_right ul.ul_dblock li {
+  width: 230px;
+  height: 216px;
+}
+body.index1000 .block_dwrap .block_wrap .dblock .dblock_right ul.ul_dblock li .dli_top img {
+  width: 215px;
+  height: 124px;
+}
+body.index1000 .block_dwrap .block_wrap .dblock .dblock_right ul.ul_dblock li .dli_tit {
+  width: 218px;
+}
+body.index1000 .block_dwrap .block_wrap .dblock .dblock_right ul.ul_dblock li .dli_bot {
+  margin-top: 6px;
+  width: 218px;
+}
+body.index1000 .block_dwrap .block_wrap .dblock .dblock_right ul.ul_dblock li .dli_bot h3 {
+  display: none;
+}
+body.index1000 .block_dwrap .block_wrap .dblock .dblock_right ul.ul_dblock li.li_more a.a_more img.img_more {
+  margin-top: 66px;
+  margin-left: 74px;
+  width: 84px;
+  height: 84px;
+}
+body.index1000 .block_dwrap .block_wrap .dblock .dblock_right ul.ul_dblock li.li_more a:hover img.img_more {
+  margin-left: 94px;
+}
+
+
+
+/**
+ * by zgy
+ */
+/* line 1, ../sass/style.scss */
+/* line 1, ../sass/style.scss */
+#club_top {
+  font-family: "Microsoft YaHei";
+  font-size: 12px;
+  background-color: #f1f2f5;
+  color: #000;
+  position: relative;
+  /**
+   * info
+   */
+  /**
+   * sign
+   */
+  /**
+   * active
+   */
+  /**
+   * service
+   */
+  /**
+   * BANNER
+   */
+}
+/* line 7, ../sass/style.scss */
+#club_top .user_right {
+  overflow: hidden;
+}
+/* line 10, ../sass/style.scss */
+#club_top .user_right_list {
+  overflow: hidden;
+  margin: 5px 0;
+}
+/* line 14, ../sass/style.scss */
+#club_top .user_right_list .user_right_inner {
+  white-space: nowrap;
+  overflow: hidden;
+  width: 1000px;
+}
+/* line 17, ../sass/style.scss */
+#club_top .user_right_list a {
+  position: absolute;
+  font-size: 20px;
+  margin-top: 5px;
+  color: #c7c7c7;
+}
+/* line 24, ../sass/style.scss */
+#club_top .user_right_list #user_right_btn_l {
+  left: 20px;
+}
+/* line 27, ../sass/style.scss */
+#club_top .user_right_list #user_right_btn_r {
+  right: 20px;
+}
+/* line 30, ../sass/style.scss */
+#club_top .user_right_list .user_right_btn_active {
+  color: #646466;
+}
+/* line 34, ../sass/style.scss */
+#club_top .user_right_list .user_right_14 {
+  background-position: 0 -11px;
+}
+/* line 38, ../sass/style.scss */
+#club_top .user_right_list .user_right_6 {
+  background-position: -62px -11px;
+}
+/* line 42, ../sass/style.scss */
+#club_top .user_right_list .user_right_11 {
+  background-position: -126px -11px;
+}
+#club_top .user_right_list .user_right_12 {
+  background-position: -62px -11px;
+}#club_top .user_right_list .user_right_27 {
+  background-position: -310px 52px;
+}#club_top .user_right_list .user_right_28 {
+  background-position: -250px 52px;
+}
+/* line 46, ../sass/style.scss */
+#club_top .user_right_list .user_right_15 {
+  background-position: -188px -11px;
+}
+/* line 49, ../sass/style.scss */
+#club_top .user_right_list .user_right_17 {
+  background-position: -250px -11px;
+}
+/* line 52, ../sass/style.scss */
+#club_top .user_right_list .user_right_19 {
+  background-position: -310px -11px;
+}
+/* line 55, ../sass/style.scss */
+#club_top .user_right_list .user_right_16 {
+  background-position: -373px -11px;
+}
+/* line 61, ../sass/style.scss */
+#club_top .user_right_list i {
+  display: block;
+  float: left;
+  width: 42px;
+  height: 42px;
+  margin: 0 5.5px;
+  background: url(https://m4.tuniucdn.com/fb2/t1/G5/M00/A2/F5/Cii-s1q8qG6Ib0lbAAB67WOB7GMAAE5XgP9HyUAAHsF126.png);
+}
+/* line 74, ../sass/style.scss */
+#club_top .club-banner-leftTop {
+  margin-bottom: 10px;
+}
+/* line 76, ../sass/style.scss */
+#club_top .club-banner-leftTop h2 {
+  font-size: 14px;
+  color: #000;
+}
+/* line 80, ../sass/style.scss */
+#club_top .club-banner-leftTop .grow-current {
+  display: block;
+  width: 220px;
+  height: 10px;
+  margin: 0 auto;
+  border: 1px solid #bbbbbb;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+/* line 88, ../sass/style.scss */
+#club_top .club-banner-leftTop .grow-content {
+  width: 80%;
+  border-radius: 4px;
+  background-color: #fd9d27;
+  height: 10px;
+  font-size: 10px;
+  font-family: "Arial";
+  line-height: 12px;
+  text-align: left;
+  text-indent: 10px;
+  -webkit-text-size-adjust:none;
+  color:#666;
+}
+/* line 95, ../sass/style.scss */
+#club_top .club-banner-leftTop .banner-txt {
+  line-height: 30px;
+  color: #666666;
+}
+/* line 99, ../sass/style.scss */
+#club_top .club-banner-leftTop .banner-txt span {
+  color: #ff6600;
+}
+/* line 104, ../sass/style.scss */
+#club_top .thumb {
+  border-radius: 50%;
+  margin: 20px 0 10px;
+}
+/* line 110, ../sass/style.scss */
+#club_top .club-banner-leftBottom {
+  background-color: #fff;
+  height: 195px;
+  position: relative;
+}
+/* line 114, ../sass/style.scss */
+#club_top .club-banner-leftBottom h3 {
+  padding-top: 5px;
+  padding-left: 30px;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+/* line 119, ../sass/style.scss */
+#club_top #tn-slide .btn {
+  border: none;
+  box-shadow: none;
+}
+/* line 127, ../sass/style.scss */
+#club_top .club-info {
+  clear: both;
+  background-color: #fff;
+  height: 41px;
+  margin: 15px 0;
+  line-height: 36px;
+  padding-left: 30px;
+  color: #666666;
+}
+/* line 135, ../sass/style.scss */
+#club_top .club-info .club-info-con {
+  display: block;
+  float: left;
+  margin-right: 25px;
+  overflow: hidden;
+}
+/* line 140, ../sass/style.scss */
+#club_top .club-info .club-info-con a, #club_top .club-info .club-info-con img {
+  float: left;
+}
+/* line 143, ../sass/style.scss */
+#club_top .club-info .club-info-con a {
+  display: block;
+  width: 160px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#club_top .club-info .club-info-con a:hover{
+  color:#ff6600;
+}
+/* line 159, ../sass/style.scss */
+#club_top .club-sign {
+  clear: both;
+  overflow: hidden;
+  padding: 15px 15px 15px 30px;
+}
+/* line 164, ../sass/style.scss */
+#club_top .club-sign h1 {
+  font-size: 28px;
+}
+/* line 170, ../sass/style.scss */
+#club_top .club-sign .club-sign-p2 {
+  font-size: 12px;
+  color: #639cbb;
+  line-height: 20px;
+  width: 230px;
+}
+/* line 175, ../sass/style.scss */
+#club_top .club-sign .sign-button {
+  width: 160px;
+  height: 40px;
+  background-color: #ffe801;
+  box-shadow: 3px 3px #ffb700;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 40px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #614142;
+  margin: 10px 0 45px;
+}
+/* line 188, ../sass/style.scss */
+#club_top .club-sign .sign-left {
+  float: left;
+  position: relative;
+}
+/* line 207, ../sass/style.scss */
+#club_top .club-sign .sign-left .beforeSign {
+  background: url(//ssl1.tuniucdn.com/img/201511121702/user_center_v2/fuhao.png) no-repeat right center;
+  width: 130px;
+  font-size: 12px;
+  color: #1e597a;
+}
+/* line 212, ../sass/style.scss */
+#club_top .club-sign .sign-left .beforeSign span {
+  border-bottom: 1px dashed #1e597a;
+}
+/* line 219, ../sass/style.scss */
+#club_top .club-sign .rand, #club_top .club-sign .pow {
+  display: block;
+  height: 195px;
+  float: right;
+  padding: 25px 0 0 30px;
+}
+/* line 225, ../sass/style.scss */
+#club_top .club-sign .rand {
+  background: url(//ssl1.tuniucdn.com/img/201511121702/user_center_v2/rock.png) right;
+}
+/* line 228, ../sass/style.scss */
+#club_top .club-sign .pow {
+  background: url(//ssl1.tuniucdn.com/img/201511121702/user_center_v2/powbg.png) right;
+  margin-left: 15px;
+}
+/* line 233, ../sass/style.scss */
+#club_top .club-sign .righ-txt {
+  font-size: 16px;
+}
+/* line 241, ../sass/style.scss */
+#club_top .active {
+  height: 430px;
+  margin: 20px 0;
+}
+/* line 244, ../sass/style.scss */
+#club_top .active .active_left, #club_top .active .active_mid {
+  float: left;
+}
+/* line 247, ../sass/style.scss */
+#club_top .active .active_left {
+  width: 100px;
+  height: 430px;
+}
+/* line 250, ../sass/style.scss */
+#club_top .active .active_left .txt {
+  position: relative;
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  height: 124px;
+  padding-top: 20px;
+}
+/* line 259, ../sass/style.scss */
+#club_top .active .active_left .txt .triangle {
+  position: absolute;
+  top: 50%;
+  margin-top: -9px;
+  right: 0;
+}
+/* line 266, ../sass/style.scss */
+#club_top .active .active_left .txt_first {
+  background: #5baddf url(//ssl1.tuniucdn.com/img/201511121702/user_center_v2/niulaniu.png) no-repeat;
+  background-position: center 55px;
+}
+/* line 271, ../sass/style.scss */
+#club_top .active .active_left .txt_second {
+  background: url('//m.tuniucdn.com/fb2/t1/G2/M00/36/7E/Cii-T1esZeCIMLTMAAA1L2kww7gAABGJQDvzBYAADVH13.jpeg') no-repeat 0 0;
+}
+/* line 275, ../sass/style.scss */
+#club_top .active .active_left .txt_third {
+  background: #5caee0 url(//ssl1.tuniucdn.com/img/201511121702/user_center_v2/yiyuanduobao.png) no-repeat;
+  background-position: center 55px;
+}
+/* line 286, ../sass/style.scss */
+#club_top .active .active_mid {
+  display: block;
+  margin-right: 15px;
+}
+/* line 289, ../sass/style.scss */
+#club_top .active .active_mid a {
+  display: block;
+  height: 430px;
+  top: 0;
+  position: absolute;
+}
+/* line 294, ../sass/style.scss */
+#club_top .active .active_mid .activelogo {
+  float: right;
+  position: absolute;
+  right: 40px;
+  top:-2px;
+  z-index: 20;
+
+}
+/* line 301, ../sass/style.scss */
+#club_top .active .active_right {
+  background-color: #fff;
+  text-align: center;
+  height: 430px;
+}
+/* line 305, ../sass/style.scss */
+#club_top .active .active_right .active_rightTop {
+  margin-top: 20px;
+}
+/* line 307, ../sass/style.scss */
+#club_top .active .active_right .active_rightTop b {
+  width: 50px;
+  display: inline-block;
+  border-bottom: 1px solid #ebe8e1;
+  margin-bottom: 10px;
+}
+/* line 313, ../sass/style.scss */
+#club_top .active .active_right .active_rightTop span {
+  color: #ff8134;
+  font-size: 19px;
+  font-weight: bold;
+  margin: 0 30px;
+}
+/* line 320, ../sass/style.scss */
+#club_top .active .active_right .active_rightBottom {
+  margin: 0 15px;
+}
+/* line 322, ../sass/style.scss */
+#club_top .active .active_right .active_rightBottom .task {
+  display: block;
+  width: 125px;
+  height: 125px;
+  float: left;
+  background: url(//ssl1.tuniucdn.com/img/201511121702/user_center_v2/active_right.png) no-repeat;
+  margin-top: 35px;
+  font-size: 17px;
+  font-weight: bold;
+  color: #fff;
+  line-height: 195px;
+}
+/* line 335, ../sass/style.scss */
+#club_top .active .active_right .active_rightBottom .task2 {
+  background-position: -165px 0;
+}
+/* line 338, ../sass/style.scss */
+#club_top .active .active_right .active_rightBottom .task3 {
+  background-position: 0 -158px;
+}
+/* line 341, ../sass/style.scss */
+#club_top .active .active_right .active_rightBottom .task4 {
+  background-position: -165px -160px;
+}
+/* line 345, ../sass/style.scss */
+#club_top .active .active_right .active_rightBottom .task1:hover, #club_top .active .active_right .active_rightBottom .task2:hover, #club_top .active .active_right .active_rightBottom .task3:hover, #club_top .active .active_right .active_rightBottom .task4:hover {
+  background: url(//ssl1.tuniucdn.com/img/201511121702/user_center_v2/active2_right.png) no-repeat;
+}
+/* line 349, ../sass/style.scss */
+#club_top .active .active_right .active_rightBottom .task1:hover {
+  background-position: 0 0;
+}
+/* line 353, ../sass/style.scss */
+#club_top .active .active_right .active_rightBottom .task2:hover {
+  background-position: -165px 0;
+}
+/* line 356, ../sass/style.scss */
+#club_top .active .active_right .active_rightBottom .task3:hover {
+  background-position: 0 -155px;
+}
+/* line 360, ../sass/style.scss */
+#club_top .active .active_right .active_rightBottom .task4:hover {
+  background-position: -165px -157px;
+}
+/* line 376, ../sass/style.scss */
+#club_top .club_top_service .service_part {
+  display: block;
+  height: 135px;
+  float: left;
+  background: url(//ssl1.tuniucdn.com/img/201511121702/user_center_v2/service.png) no-repeat left;
+  color: #fff;
+  text-align: right;
+}
+/* line 383, ../sass/style.scss */
+#club_top .club_top_service .service_part h1 {
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+/* line 389, ../sass/style.scss */
+#club_top .club_top_service .service_part p {
+  font-size: 12px;
+  margin-right: 20px;
+}
+/* line 397, ../sass/style.scss */
+#club_top .club_top_service .service2 {
+  background-position: -400px 0;
+  margin-left: 15px;
+}
+/* line 401, ../sass/style.scss */
+#club_top .club_top_service .service3 {
+  background-position: -800px 0;
+  margin-left: 15px;
+}
+/* line 414, ../sass/style.scss */
+#club_top .club-banner {
+  height: 420px;
+}
+/* line 416, ../sass/style.scss */
+#club_top .club-banner .club-banner-left {
+  width: 255px;
+  float: left;
+}
+/* line 419, ../sass/style.scss */
+#club_top .club-banner .club-banner-left .club-banner-leftTop {
+  height: 215px;
+  background: url(//ssl1.tuniucdn.com/img/201511121702/user_center_v2/thumbg.png);
+  text-align: center;
+}
+/* line 423, ../sass/style.scss */
+#club_top .club-banner .club-banner-left .club-banner-leftTop .grow-content {
+  float: left;
+}
+/* line 429, ../sass/style.scss */
+#club_top .club-banner .club-banner-right {
+  float: right;
+}
+/* line 441, ../sass/style.scss */
+#club_top .g_point {
+  cursor: pointer;
+}
+
+/* line 448, ../sass/style.scss */
+.index1200 {
+
+  margin: 0 auto;
+}
+/* line 453, ../sass/style.scss */
+.index1200 #club_top .club-banner-right {
+  width: 920px;
+}
+/* line 457, ../sass/style.scss */
+.index1200 #club_top .club-sign {
+  background: url(//ssl1.tuniucdn.com/img/201511121702/user_center_v2/signbg.png) no-repeat right;
+}
+/* line 459, ../sass/style.scss */
+.index1200 #club_top .club-sign .rand, .index1200 #club_top .club-sign .pow {
+  width: 355px;
+}
+/* line 465, ../sass/style.scss */
+.index1200 #club_top .active .active_mid {
+  position: relative;
+  width: 750px;
+
+}
+/* line 468, ../sass/style.scss */
+.index1200 #club_top .active .active_right {
+  width: 325px;
+}
+/* line 471, ../sass/style.scss */
+.index1200 #club_top .active .active_right .active_rightBottom .task2, .index1200 #club_top .active .active_right .active_rightBottom .task4 {
+  margin-left: 45px;
+}
+/* line 479, ../sass/style.scss */
+.index1200 #club_top .club_top_service .service_part {
+  width: 385px;
+}
+/* line 484, ../sass/style.scss */
+.index1200 #club_top .club-banner-right {
+  width: 920px;
+}
+
+/* line 500, ../sass/style.scss */
+.index1000 {
+  margin: 0 auto;
+}
+/* line 504, ../sass/style.scss */
+.index1000 #club_top .club-banner-right {
+  width: 720px;
+}
+/* line 508, ../sass/style.scss */
+.index1000 #club_top .club-sign {
+  background: url(//ssl1.tuniucdn.com/img/201511121702/user_center_v2/signbg.png) no-repeat -50px 0;
+}
+/* line 510, ../sass/style.scss */
+.index1000 #club_top .club-sign .rand, .index1000 #club_top .club-sign .pow {
+  width: 289px;
+}
+/* line 516, ../sass/style.scss */
+
+
+
+/* line 519, ../sass/style.scss */
+.index1000 #club_top .active .active_right {
+  width: 305px;
+}
+/* line 522, ../sass/style.scss */
+.index1000 #club_top .active .active_right .active_rightBottom .task2, .index1000 #club_top .active .active_right .active_rightBottom .task4 {
+  margin-left: 25px;
+}
+/* line 530, ../sass/style.scss */
+.index1000 #club_top .club_top_service .service_part {
+  width: 319px;
+}
+/* line 536, ../sass/style.scss */
+.index1000 #club_top .club-banner-right {
+  position: relative;
+  width: 720px;
+  overflow: hidden;
+}
+/* line 540, ../sass/style.scss */
+.index1000 #club_top .club-banner-right .club_lunbo {
+  margin-left: -100px;
+}
+/* line 544, ../sass/style.scss */
+.index1000 #club_top .club-banner-right #tn-slide .next {
+  right: 100px;
+}
+/* line 547, ../sass/style.scss */
+.index1000 #club_top .club-banner-right #tn-slide .pre {
+  left: 100px;
+}
+
+/**
+   * alert
+   */
+/* line 564, ../sass/style.scss */
+.alert_box {
+  color: #666666;
+}
+/* line 572, ../sass/style.scss */
+.alert_box .info_box {
+  background-color: #fff;
+  width: 595px;
+  height: 290px;
+  padding: 15px 30px;
+  margin: 0 auto;
+}
+/* line 580, ../sass/style.scss */
+.alert_box h1 {
+  font-size: 18px;
+  margin-bottom: 25px;
+  color: #333;
+}
+/* line 586, ../sass/style.scss */
+.alert_box h2 {
+  font-size: 14px;
+  font-weight: bold;
+}
+/* line 591, ../sass/style.scss */
+.alert_box p {
+  margin-bottom: 25px;
+}
+/* line 595, ../sass/style.scss */
+.alert_box .alert_para {
+  width: 320px;
+}
+/* line 598, ../sass/style.scss */
+.alert_box .alert_para span {
+  display: inline-block;
+  font-size: 14px;
+  width: 425px;
+}
+/* line 605, ../sass/style.scss */
+.alert_box button {
+  display: block;
+  width: 140px;
+  height: 40px;
+  background-color: #ffe600;
+  margin: 25px auto;
+  box-shadow: 5px 5px #ffb700;
+  border: none;
+  border-radius: 3px;
+  color: #614142;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+
+/**
+ * config
+ */
+
+#club_top  .user_right{
+  padding: 0;
+  position: static;
+}
+
+#club_top .user_right_btn_l, .user_right_btn_r{
+  border: none;
+}
+
+#club_top .club_lunbo{
+  width: auto;
+  height: auto;
+  float: none;
+  padding: 0;
+}
+
+#club_top .club_lunbo_inner, .club_lunbo_show{
+    width: auto;
+    height: auto;
+}
+
+#club_top .user_grow h3, .user_right h3{
+  line-height: 24px;
+}
+#club_top .user_right_list{
+    width: 156px;
+    margin: 0 auto;
+}
+
+#club_top .club_top_service{
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+.index1200 #club_top{
+  width: 1190px;
+  margin: 0 auto;
+}
+
+.index1000 #club_top{
+  margin: 0 auto;
+  width: 1000px;
+}
+
+
+#club_first_top{
+  width: 100%;
+  background-color: #f1f2f5;
+}
+
+
+#club_top .active .active_mid .active_pic{
+  display: none;
+  position: absolute;
+  top: 0;
+}
+
+#club_top .active .active_right{
+  float: right;
+}
+
+
+/**
+ * 后期修改
+ */
+#club_top .thumb_box{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  position: relative;
+}
+
+
+#club_top .thumb_box img{
+  width: 100%;
+}
+
+
+#club_top .thumb_box .user_rand{
+  position:  absolute;
+  display: block;
+  width: 36px;
+  height: 14px;
+  left: 23px;
+  bottom: 10px;
+  background-image: url(//img3.tuniucdn.com/img/20150505/hyclub/site_nav_vip.png);
+}
+
+.user_rand2{
+  background-position: 0 -15px;
+}
+
+.user_rand3{
+  background-position: 0 -30px;
+}
+
+.user_rand4{
+  background-position: 0 -48px;
+}
+.user_rand5{
+  background-position: 0 -65px;
+}
+.user_rand6{
+  background-position: 0 -80px;
+}
+.user_rand7{
+  background-position: 0 -95px;
+}
+
+.user_rand8{
+  background-position: 0 -110px;
+}
+
+
+
+
+/**
+ * 删除
+ */
+/*.index1000 #club_top .active .active_mid .active_pic{
+  margin-left: -100px;
+
+}
+
+
+.index1000 #club_top .active .active_mid {
+  position: relative;
+  width: 570px;
+  overflow: hidden;
+  height: 430px;
+}*/
+
+
+.index1000 #club_top .active .active_mid .active_pic{
+  width: 550px;
+}
+
+.index1000 #club_top .active .active_left .txt{
+  height: 85px;
+}
+.index1000 #club_top .active .active_left .txt_first,
+.index1000 #club_top .active .active_left .txt_second,
+.index1000 #club_top .active .active_left .txt_third{
+  background-position: center 45px;
+}
+
+.index1000 #club_top .active .active_right{
+  height: 315px;
+}
+
+.index1000 #club_top .active .active_right .active_rightBottom .task{
+  margin-top: 5px;
+}
+
+.index1000 #club_top .active .active_right .active_rightTop{
+  margin-top: 10px;
+}
+
+
+.index1000  #club_top .active .active_left{
+  height: 315px;
+}
+
+
+.index1000 #club_top .active .active_mid {
+  position: relative;
+  width: 570px;
+  overflow: hidden;
+  height: 315px;
+}
+
+
+.index1000 #club_top .active{
+  height: 315px;
+}
+
+
+/*20151125 modified*/
+.club_login_button{
+  width: 230px;
+  background-color: #ff8800;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  font-size: 18px;
+  margin: 45px auto 0;
+  box-shadow: 0 3px 3px #e27501;
+  font-family: "Microsoft Yahei"
+}
+
+
+#club_top .user_right_list{
+  height: 52px;
+}
+
+#club_top .club-banner{
+  margin-bottom: 15px;
+}
+
+/*礼包*/
+.user_gifts{
+  height: 90px;
+  padding-left: 52px;
+}
+#club_top .user_gifts_list > a {
+  position: absolute;
+  font-size: 20px;
+  margin-top: 5px;
+  color: #c7c7c7;
+}
+#club_top .user_gifts_list .no-right {
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 14px;
+}
+#club_top .user_gifts_list #user_gift_btn_r {
+  right: 20px;
+}
+#club_top .user_gifts_list #user_gift_btn_l {
+  left: 20px;
+}
+#club_top .user_gifts_list .user_gift_btn_active {
+  color: #646466;
+}
+#club_top .user_gifts_list .user_gifts_inner {
+  white-space: nowrap;
+  overflow: hidden;
+  width: 1000px;
+}
+#club_top .user_gifts_list {
+  height: 52px;
+}
+#club_top .user_gifts_list {
+  width: 156px;
+  margin: 0 auto;
+}
+#club_top .user_gifts_list {
+  overflow: hidden;
+  margin: 5px 0;
+}
+.user_gift_plane{
+  margin: 0 5px;
+  float: left;
+  display: block;
+  width: 42px;
+  height: 42px;
+  background: url("//ssl1.tuniucdn.com/img/201511121702/gift/plane-icon.png") no-repeat;
+}
+.user_gift_wifi{
+  margin: 0 5px;
+  float: left;
+  display: block;
+  width: 42px;
+  height: 42px;
+  background: url("//ssl1.tuniucdn.com/img/201511121702/gift/wifi-icon.png") no-repeat;
+}
+.user_gift_VIP{
+  margin: 0 5px;
+  float: left;
+  display: block;
+  width: 42px;
+  height: 42px;
+  background: url("//ssl1.tuniucdn.com/img/201511121702/gift/VIP-icon.png") no-repeat;
+}
+.user_gift_birthday{
+  margin: 0 5px;
+  float: left;
+  display: block;
+  width: 42px;
+  height: 42px;
+  background: url("//ssl1.tuniucdn.com/img/201511121702/gift/birthday-icon.png") no-repeat;
+}
+.user_gift_health{
+  margin: 0 5px;
+  float: left;
+  display: block;
+  width: 42px;
+  height: 42px;
+  background: url("//ssl1.tuniucdn.com/img/201511121702/user_center_v2/health-icon.png") no-repeat;
+}
+
+/* //img1.tuniucdn.com/f/20140807/tn-slide/fotorama.css 预加载，IE样式fix */
+#tn-slide{width:800px;height:280px;overflow:hidden;position:relative;}
+#tn-slide ul{height:280px;position:absolute;width:100000px;}
+#tn-slide ul li{float:left;width:800px;height:280px;overflow:hidden;position:relative;background:#000;}
+#tn-slide ul li div{position:absolute;overflow:hidden;}
+#tn-slide .btnBg{position:absolute;width:800px;height:20px;left:0;bottom:0;background:#000;}
+#tn-slide .btn{position:absolute;width:780px;height:10px;padding:0px 10px;right:0;bottom:10px;text-align:center;}
+#tn-slide .btn span{display:inline-block;_display:inline;_zoom:1;width:12px;height:12px;_font-size:0;margin-left:10px;cursor:pointer;background:#404040;border-radius:50%;}
+#tn-slide .btn span.on{background:#ff8800;}
+#tn-slide .preNext{width:45px;height:100px;position:absolute;top:90px;background:url("//img1.tuniucdn.com/site/file/tn-slide/img/sprite.png") no-repeat 0 0;cursor:pointer;}
+#tn-slide .pre{left:0;}
+#tn-slide .next{right:0;background-position:right top;}
+
+.user-gift-cake {
+  background-image: url(https://m.tuniucdn.com/fb2/t1/G2/M00/C4/0F/Cii-T1h4cN6IUuSiAAAHjyh7z1wAAGvVgP_9dkAAAen173.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 5px;
+  float: left;
+  display: block;
+  width: 42px;
+  height: 42px;
+  position: relative;
+}

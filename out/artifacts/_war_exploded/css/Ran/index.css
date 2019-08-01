@@ -1,0 +1,398 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    
+}
+.triphidden .line2,.triphidden .line1{
+    display: none !important;
+}
+ul{
+    list-style:none;
+}
+a {
+    text-decoration: none;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.wrapper{
+    /* width: 990px; */
+    margin: 0 auto;
+    position: relative;
+}
+.blockfirst {
+    background-image:url(../../images/Ran/backimg1.jpg);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    background-attachment:fixed;
+}
+.backfirst{
+    background-image:url(../../images/Ran/backimg2.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%; 
+    
+}
+.blocksecond{
+    background-image:url(../../images/Ran/backimg2.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+
+}
+.blocklast{
+    background-image:url(../img/backimg3.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+     background-attachment:fixed;
+}
+.video{
+    font-size: 0;
+}
+.logo img{
+    position: fixed;
+    bottom: 0;
+    width: 14.8%;
+    z-index: 1;
+}
+
+.readylogo{
+    position: relative;
+}
+.readylogo img{
+    width: 31%;
+    position: absolute;
+    margin-top: 25%;
+}
+.resorttitle .paybutton{
+    width: 24%;
+    position: absolute;
+    right: 0;
+    top:35%;
+    box-shadow: 1px 3px 25px #71b987;
+}
+.resorttitle .resortimg{
+    padding-top: 130px;
+    width: 87%;
+}
+.resorttitle img{
+    display: block;
+}
+.ski-container{
+    position: relative;
+}
+#skicontent-box{
+    position: relative;
+    height: 552px;
+    margin-bottom: 40px;
+}
+#skicontent-box img{
+    display: none;
+}
+#skicontent-box .selected{
+    margin-top: 108px;
+    width: 87%;
+    display: block;
+    position: absolute;
+    right: 0;
+}
+#ski-container .btn{
+    width: 3%;
+    position: absolute;
+    display: block;
+    top: 90%;
+    cursor: pointer;
+}
+#ski-container .pre-btn{
+    right: 8%;
+}
+#ski-container .next-btn{
+    right: 4%;
+}
+#skiimg-box .selected{
+    width: 59%;
+    display: block;
+    position: absolute;
+    top:42px;
+}
+#skiimg-box img{
+    display: none;
+}
+#ski-container{
+    position: relative;
+}
+.snow-container{
+    position: relative;
+}
+#snowimg-box img{
+    display: none;
+}
+#snowimg-box .selected{
+    padding-top: 56px;
+    display: block;
+    width: 100%;
+}
+#snowcontent-box img{
+    display: none;
+}
+#snowcontent-box .selected{
+    display: block;
+    width: 36%;
+    position: absolute;
+    right: 0;
+    margin-top: -22%;
+}
+.snow-container .btn{
+    position: absolute;
+    margin-top: -19%;
+    width: 3%;
+    cursor: pointer;
+}
+.snow-container .snow-pre-btn{
+    right: 29%;
+}
+.snow-container .snow-next-btn{
+    right: 25%;
+}
+.travels-img {
+    font-size: 0;
+    /* width: 2600px; */
+    /* transform: translateX(-150px); */
+    position: absolute;
+    left: 0;
+}
+.travels-img img{
+    /* width: 315px; */
+    /* margin-right: 9px; */
+    text-align:right;
+   
+}
+.travels-img li{
+    display: inline-block;
+}
+
+#strategy{
+    position: relative;
+    margin-top: 238px;
+
+}
+#strategy .slide-btn{
+    position: absolute;
+    width: 4%;
+    right: -2%;
+    top: 40%;
+    cursor: pointer;
+}
+.travel-contain{
+    overflow: hidden;
+    position: relative;
+}
+.tour{
+    width: 100%;
+    background-color:rgba(255,255,255,0.5);
+    padding: 30px 0px 116px;
+}
+.selection img{
+    margin: 0 auto;
+}
+.travels-img a{
+    display: inline-block;
+    line-height: 0;
+}
+
+/* 底部 */
+.backbottom{
+    background-color:rgba(0,0,0,0.7);
+    margin-top: 140px;
+    height: 420px;
+    z-index: 100;
+    position: relative;
+}
+.tips img{
+    display: none;
+}
+.tips .active{
+    display: inline-block;
+    width: 74%;
+    vertical-align: middle;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top:325px;
+}
+.nochecked img{
+    /* padding-right: 10px; */
+    vertical-align: middle;
+    display: inline-block; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.nochecked{
+    text-align: center;
+    padding-top: 60px; 
+    vertical-align: middle;
+    
+}
+.nochecked .img-box{
+    display: inline-block;
+    border-radius: 50%;
+    line-height: 0;
+    background: #525252;
+    width: 104px;
+    height: 104px;
+    position: relative;
+}
+.nochecked .checked{
+    display: none;
+}
+.nochecked .change .img-box{
+    background: #77b800;
+}
+.nochecked p{
+    color: #ffffff;
+  
+}
+.nochecked .tipcon{
+    display: inline-block;
+    position: relative;
+    margin-left: 0.5em;
+}
+/* 团队游 */
+.commongroup img{
+    display: block;
+}
+.commongroup{
+    position: relative;
+    /* display: inline-block; */
+    cursor: pointer;
+    width: 24%;
+    margin:0 2px;
+}
+.commongroup a,
+.commongroup img{
+    width: 100%;
+    display: block;
+}
+.grouptour {
+    display: flex;
+    justify-content: space-between;
+}
+.fittour {
+    display: flex;
+    justify-content: space-between;
+}
+.price{
+    position: absolute;
+    top:15%;
+    background: #77b800;
+    color: #ffffff;
+    width: 55%;
+    height: 2.5em;
+    text-align: center;
+    z-index: 2;
+    box-shadow: 1px 3px 25px #71b987;
+    line-height: 2.5em;
+}
+.pri-icon{
+    font-size: 0.8em;
+}
+.pri-number{
+    font-size: 1.5em;
+}
+.details{
+    position: absolute;
+    top:50%;
+    color: #ffffff;
+    margin: 0px 25px;
+    display: none;
+    z-index: 2;
+    transform: translateY(-50%);
+}
+/* .details .p-title{
+    font-size: 1.3em;
+    margin-bottom: 20px;
+} */
+.details .p-content{
+    font-size: 0.6em;
+}
+
+.commongroup:hover .details{
+    display: block;  
+}
+.commongroup:hover .box{
+    display: block;
+}
+.commongroup:hover .tour-title{
+    display: none;
+}
+.box{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:#000;
+    opacity:0.7;
+    display: none;
+}
+.fittour{
+    display: none;
+}
+.tour-con{
+    text-align: center;
+}
+.tour-con .active{
+    display: flex;
+}
+.trips{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.trips div{
+    display: inline-block;
+}
+.line1{
+    width: 50px;
+    height: 8px;
+    background: #77b800;
+    position: absolute;
+    top: 46px;
+    right: 29px;
+}
+.line2{
+    width: 123px;
+    height: 13px;
+    background: #77b800;
+    position: absolute;
+    top: -30px;
+    left: 0;
+}
+.trips-container{
+    position: relative;
+    margin: 0px 70px;
+}
+.tour-con>div{
+    display: none;
+}
+.travel-contain .wrapper{
+    overflow: hidden;
+}
+.commongroup .tour-title{
+    height: 3em;
+    background:#000;
+    opacity:0.7;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: table;
+}
+.tour-title .p-title{
+    color: #ffffff;
+    font-size:0.8em;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 5px;
+}

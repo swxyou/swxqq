@@ -1,0 +1,181 @@
+.tn-slide {
+    width: 800px;
+    height: 280px;
+    overflow: hidden;
+    position: relative
+}
+
+.tn-slide
+ul {
+    height: 280px;
+    position: absolute;
+    width: 100000px
+}
+
+.tn-slide ul
+li {
+    float: left;
+    width: 800px;
+    height: 280px;
+    overflow: hidden;
+    position: relative;
+    background: #000
+}
+
+.tn-slide ul li
+div {
+    position: absolute;
+    overflow: hidden
+}
+
+.tn-slide
+.btnBg {
+    position: absolute;
+    width: 800px;
+    height: 20px;
+    left: 0;
+    bottom: 0;
+    background: #000
+}
+
+.tn-slide
+.btn {
+    position: absolute;
+    width: 780px;
+    height: 10px;
+    padding: 0px 10px;
+    right: 0;
+    bottom: 10px;
+    text-align: center
+}
+
+.tn-slide .btn
+span {
+    display: inline-block;
+    _display: inline;
+    _zoom: 1;
+    width: 12px;
+    height: 12px;
+    _font-size: 0;
+    margin-left: 10px;
+    cursor: pointer;
+    background: #404040;
+    border-radius: 50%
+}
+
+.tn-slide .btn
+span.on {
+    background: #f80
+}
+
+.tn-slide
+.preNext {
+    width: 45px;
+    height: 100px;
+    position: absolute;
+    top: 90px;
+    /*background: url(/site/file/tn-slide/img/sprite.png) no-repeat 0 0;*/
+    cursor: pointer
+}
+
+.tn-slide
+.pre {
+    left: 0
+}
+
+.tn-slide
+.next {
+    right: 0;
+    background-position: right top
+}
+
+#tn-slide {
+    width: 800px;
+    height: 280px;
+    overflow: hidden;
+    position: relative
+}
+
+#tn-slide
+ul {
+    height: 280px;
+    position: absolute;
+    width: 100000px
+}
+
+#tn-slide ul
+li {
+    float: left;
+    width: 800px;
+    height: 280px;
+    overflow: hidden;
+    position: relative;
+    background: #000
+}
+
+#tn-slide ul li
+div {
+    position: absolute;
+    overflow: hidden
+}
+
+#tn-slide
+.btnBg {
+    position: absolute;
+    width: 800px;
+    height: 20px;
+    left: 0;
+    bottom: 0;
+    background: #000
+}
+
+#tn-slide
+.btn {
+    position: absolute;
+    width: 780px;
+    height: 10px;
+    padding: 0px 10px;
+    right: 0;
+    bottom: 10px;
+    text-align: center
+}
+
+#tn-slide .btn
+span {
+    display: inline-block;
+    _display: inline;
+    _zoom: 1;
+    width: 12px;
+    height: 12px;
+    _font-size: 0;
+    margin-left: 10px;
+    cursor: pointer;
+    background: #404040;
+    border-radius: 50%
+}
+
+#tn-slide .btn
+span.on {
+    background: #f80
+}
+
+#tn-slide
+.preNext {
+    width: 45px;
+    height: 100px;
+    position: absolute;
+    top: 90px;
+    background: url(/site/file/tn-slide/img/sprite.png) no-repeat 0 0;
+    cursor: pointer
+}
+
+#tn-slide
+.pre {
+    left: 0
+}
+
+#tn-slide
+.next {
+    right: 0;
+    background-position: right top
+}

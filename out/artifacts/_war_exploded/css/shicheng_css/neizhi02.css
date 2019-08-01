@@ -1,0 +1,147 @@
+.zyom {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0 3px 6.5px;
+    width: 242px;
+    height: 278px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.zyom .chufaCat {
+    position: absolute;
+    top: 5px;
+    left: 6px;
+    padding: 1px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.zyom .chufaCat .chufa {
+    margin-right: -5px;
+    padding: 4px;
+    border-radius: 5px 0 0 5px;
+    background: rgba(0, 0, 0, .6);
+}
+
+.zyom .chufaCat .gentuan {
+    border-radius: 0 5px 5px 0;
+    background: #2fba55;
+    padding: 4px;
+    color: #fff;
+}
+
+.zyom .price-tag {
+    position: absolute;
+    bottom: 23px;
+    left: 8px;
+    padding-right: 13px;
+    width: 120px;
+    height: 18px;
+    color: #f2490e;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.zyom .price-tag span {
+    font-size: 27px;
+}
+
+.zyom .price-tag span.qi {
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.zyom .image {
+    overflow: hidden;
+    width: 195px;
+    height: 122px;
+}
+
+.zyom .satpplc {
+    position: absolute;
+    top: 137px;
+    left: 10px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.zyom .satpplc .sati {
+    margin-right: 2px;
+    padding-right: 14px;
+}
+
+.zyom .title {
+    position: absolute;
+    bottom: 48px;
+    overflow: hidden;
+    box-sizing: border-box;
+    color: #1d1d1d;
+    font-size: 16px;
+    line-height: 17px;
+    padding: 0 10px;
+}
+
+.zyom .buy-now {
+    position: absolute;
+    right: 13px;
+    bottom: 15px;
+    width: 55px;
+    height: 24px;
+    border-width: 0.5px;
+    border-style: solid;
+    border-radius: 35px;
+    border-color: #fc7f0b;
+    background: #fc7f0b repeat scroll 0% 0%;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    line-height: 16px;
+    padding: 3px 0;
+}
+
+.title p {
+    margin: 0;
+}
+
+.title .p-title {
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+    height: 17px;
+    overflow: hidden;
+}
+
+.title .p-content {
+    color: #333333;
+    margin-top: 6px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 206px;
+    overflow: hidden;
+}
+
+.buy-con {
+    position: absolute;
+    left: 7px;
+    font-size: 20px;
+    top: 6px;
+}
+
+.buy-now .right-arrow {
+    position: absolute;
+    left: 32px;
+    top: -1px;
+}
+
+.zyom .mask {
+    position: absolute;
+    bottom: 117px;
+    left: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 28px;
+    background: rgba(0, 0, 0, .7);
+    background: url(../../images/shicheng_img/Cii-tFq8tauIRLFHAAAc5h1qIqgAAE5uAHSRMcAABz-137.png) no-repeat 50%/100% 100%;
+}

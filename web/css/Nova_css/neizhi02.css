@@ -1,0 +1,84 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.head {
+    height: 58px;
+    width: 100%;
+    border-top: 1px solid #999;
+    border-bottom: #999;
+    font-family: "Microsoft Yahei";
+    background: #fff;
+    margin: 0 auto;
+}
+
+.head .inner_menu {
+    width: 838px;
+    height: 58px;
+    float: left;
+}
+
+.head .nav_list {
+    width: 838px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.head .nav_list li {
+    float: left;
+    height: 58px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.head .nav_list li a {
+    font-size: 14px;
+    height: 58px;
+    line-height: 58px;
+    color: #736f72;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-decoration: none;
+}
+
+.head .nav_list li a:hover {
+    color: #2e9900;
+    background: #f7f7f7;
+}
+
+.head .inner_head {
+    width: 1000px;
+    margin: 0 auto;
+    height: 58px;
+}
+
+.head .logo {
+    float: left;
+    width: 160px;
+    padding-top: 10px;
+}
+
+.head .nav_list li.tuniuphone-wrapper {
+    line-height: 58px;
+    margin-left: 10px;
+}
+
+.icon-tuniuphone {
+    width: 13px;
+    height: 14px;
+    background: url(../../images/Nova_image/icon-greenphone.png) top center no-repeat;
+    display: inline-block;
+    position: relative;
+    bottom: -2px;
+    margin-right: 2px;
+}
+
+.head .nav_list li a.tuniuPhone {
+    display: inline-block;
+    color: #38c249;
+    font-size: 16px;
+    padding-left: 0;
+}

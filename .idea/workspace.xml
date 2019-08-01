@@ -1,0 +1,1222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="南京途牛国际旅行社有限公司:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f39a3f7c-d42b-48d2-93f0-37ade5e75fa3" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="tuniu: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Unnamed">
+      <favorite_root url="file://$PROJECT_DIR$/lib/alipay-sdk-java20170324180803-source.jar" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="buys" pinned="false" current-in-tab="false">
+        <entry file="das://ec3ad6a2-afbf-4020-9eba-9d2a23ba32f1/schema/tuniu/table/buys">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="order" pinned="false" current-in-tab="false">
+        <entry file="das://ec3ad6a2-afbf-4020-9eba-9d2a23ba32f1/schema/tuniu/table/order">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/Index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7062">
+              <caret line="14310" column="43" lean-forward="true" selection-start-line="14310" selection-start-column="43" selection-end-line="14310" selection-end-column="43" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+                <element signature="n#a#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#ul#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#li#4;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#li#5;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#li#6;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#li#7;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="Class" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>type=&quot;text/javascript&quot;</find>
+      <find>type\=\&quot;text\/javascript\&quot;\n            src\=\&quot;\%E9\%80\%94\%E7\%89\%9B\%E6\%97\%85\%E6\%B8\%B8\%E7\%BD\%91\%E4\%BC\%9A\%E5\%91\%98\%E4\%B8\%AD\%E5\%BF\%83_\%E4\%BC\%9A\%E5\%91\%98\%E4\%B8\%AD\%E5\%BF\%83_\%E9\%80\%94\%E7\%89\%9B\%E6\%97\%85\%E6\%B8\%B8\%E7\%BD\%91_files</find>
+      <find>&lt;img src=&quot;%E9%80%94%E7%89%9B%E6%97%85%E6%B8%B8%E7%BD%91%E4%BC%9A%E5%91%98%E4%B8%AD%E5%BF%83_%E4%BC%9A%E5%91%98%E4%B8%AD%E5%BF%83_%E9%80%94%E7%89%9B%E6%97%85%E6%B8%B8%E7%BD%91_files</find>
+      <find>%E9%80%94%E7%89%9B%E6%97%85%E6%B8%B8%E7%BD%91%E4%BC%9A%E5%91%98%E4%B8%AD%E5%BF%83_%E4%BC%9A%E5%91%98%E4%B8%AD%E5%BF%83_%E9%80%94%E7%89%9B%E6%97%85%E6%B8%B8%E7%BD%91_files</find>
+      <find>order-item</find>
+      <find>下单</find>
+      <find>#order-item-list</find>
+      <find>order-item-list</find>
+      <find>waitPay</find>
+      <find>查看</find>
+      <find>会员首页</find>
+      <find>selectSess</find>
+      <find>QueryUser</find>
+      <find>init</find>
+      <find>Mylvtu.html</find>
+      <find>Mylvtu.htm</find>
+      <find>user_login_info</find>
+      <find>class=&quot;name</find>
+      <find>login</find>
+      <find>unames</find>
+      <find>user_login_infos</find>
+      <find>al</find>
+      <find>alert</find>
+      <find>旅游订单</find>
+      <find>images/geren_img/Cii-s1qPg1eISn7MAAAFfDTr0owAADlogP_-fEAAAYP080.png</find>
+      <find>images/Order_xiangxi_images/Cii-s1qPg1eISn7MAAAFfDTr0owAADlogP_-fEAAAYP080.png</find>
+      <find />
+      <find>tour.html?id=1</find>
+      <find>dtmbutten</find>
+      <find>获取</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>login_image</replace>
+      <replace>login_js</replace>
+      <replace>js/login_js/</replace>
+      <replace>css/login_css/</replace>
+      <replace>会员注册%20-%20途牛旅游网.html</replace>
+      <replace>12311</replace>
+      <replace>src=&quot;images/Ran</replace>
+      <replace>../../images/Ran</replace>
+      <replace>../images/utilhtml</replace>
+      <replace>src=&quot;../images/utilhtml</replace>
+      <replace>href=&quot;../css/utilhtml</replace>
+      <replace>../../images/utilhtml</replace>
+      <replace>%</replace>
+      <replace>href=&quot;css/homepage_css</replace>
+      <replace>src=&quot;js/homepage_js</replace>
+      <replace>css/register_css</replace>
+      <replace>G13.jpg</replace>
+      <replace>../../images/tour_image/util/dmoe0g08000.png</replace>
+      <replace>%%</replace>
+      <replace>css/Settlement_css</replace>
+      <replace>src=&quot;js/Settlement_js</replace>
+      <replace>String</replace>
+      <replace>href=&quot;css/Order_xiangxi_css</replace>
+      <replace>type=&quot;text/javascript&quot;             src=&quot;js/Order_xiangxi_js</replace>
+      <replace>&lt;img src=&quot;images/Order_xiangxi_images</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>F:\作业\Ide\南京途牛国际旅行社有限公司\web\images\login_image</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/web/Banners_01.html" />
+        <option value="$PROJECT_DIR$/src/servlet/Demo.java" />
+        <option value="$PROJECT_DIR$/web/css/Nova_css/common.css" />
+        <option value="$PROJECT_DIR$/web/css/Nova_css/common_foot_v3.css" />
+        <option value="$PROJECT_DIR$/web/css/Nova_css/fullcalendar.css" />
+        <option value="$PROJECT_DIR$/web/css/Nova_css/mask.css" />
+        <option value="$PROJECT_DIR$/web/css/Nova_css/neizhi.css" />
+        <option value="$PROJECT_DIR$/web/css/Nova_css/neizhi02.css" />
+        <option value="$PROJECT_DIR$/web/player_002.html" />
+        <option value="$PROJECT_DIR$/web/Nova Scotia.html" />
+        <option value="$PROJECT_DIR$/src/Dao/Impl/IndexBannerDaoImpl.java" />
+        <option value="$PROJECT_DIR$/web/shicheng.html" />
+        <option value="$PROJECT_DIR$/src/Dao/UsersDao.java" />
+        <option value="$PROJECT_DIR$/src/Dao/Impl/UsersDaoimpl.java" />
+        <option value="$PROJECT_DIR$/src/service/UsersService.java" />
+        <option value="$PROJECT_DIR$/src/service/Impl/UsersServiceimpl.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ec3ad6a2-afbf-4020-9eba-9d2a23ba32f1/console_8.sql" />
+        <option value="$PROJECT_DIR$/web/js/geren_js/centerv2.js" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ec3ad6a2-afbf-4020-9eba-9d2a23ba32f1/console_9.sql" />
+        <option value="$PROJECT_DIR$/web/Login.html" />
+        <option value="$PROJECT_DIR$/web/js/Order_xiangxi_js/header_v2.js" />
+        <option value="$PROJECT_DIR$/src/entity/Order.java" />
+        <option value="$PROJECT_DIR$/src/Dao/OrderDao.java" />
+        <option value="$PROJECT_DIR$/src/service/OrderService.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ec3ad6a2-afbf-4020-9eba-9d2a23ba32f1/console_10.sql" />
+        <option value="$PROJECT_DIR$/src/service/Impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/web/js/geren_js/geren_js.js" />
+        <option value="$PROJECT_DIR$/src/util/BaseDao.java" />
+        <option value="$PROJECT_DIR$/src/Dao/Impl/OrderDaoImpl.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ec3ad6a2-afbf-4020-9eba-9d2a23ba32f1/console_11.sql" />
+        <option value="$PROJECT_DIR$/src/servlet/Servlet.java" />
+        <option value="$PROJECT_DIR$/web/tour.html" />
+        <option value="$PROJECT_DIR$/web/js/tour_js/tour_js.js" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ec3ad6a2-afbf-4020-9eba-9d2a23ba32f1/console_12.sql" />
+        <option value="$PROJECT_DIR$/web/js/util/selectSession.js" />
+        <option value="$PROJECT_DIR$/web/js/Order_xiangxi_js/Order_js.js" />
+        <option value="$PROJECT_DIR$/web/js/PwdReset_js/pwdReset_js.js" />
+        <option value="$PROJECT_DIR$/web/js/Settlement_js/Settlement_js.js" />
+        <option value="$PROJECT_DIR$/web/Mylvtu.html" />
+        <option value="$PROJECT_DIR$/web/dingdan_xiangxi.html" />
+        <option value="$PROJECT_DIR$/src/Dao/BuysDao.java" />
+        <option value="$PROJECT_DIR$/src/service/BuysService.java" />
+        <option value="$PROJECT_DIR$/src/service/Impl/BuysServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/controller/controller.java" />
+        <option value="$PROJECT_DIR$/web/Index.html" />
+        <option value="$PROJECT_DIR$/src/entity/Buys.java" />
+        <option value="$PROJECT_DIR$/web/js/homepage_js/index_js.js" />
+        <option value="$PROJECT_DIR$/src/Dao/Impl/BuysDaoImpl.java" />
+        <option value="$PROJECT_DIR$/web/ZhiFu.html" />
+        <option value="$PROJECT_DIR$/web/register.html" />
+        <option value="$PROJECT_DIR$/web/js/register_js/register_js.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="85" />
+    <option name="width" value="1830" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="南京途牛国际旅行社有限公司" type="b2602c69:ProjectViewProjectNode" />
+              <item name="南京途牛国际旅行社有限公司" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="南京途牛国际旅行社有限公司" type="b2602c69:ProjectViewProjectNode" />
+              <item name="南京途牛国际旅行社有限公司" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="南京途牛国际旅行社有限公司" type="b2602c69:ProjectViewProjectNode" />
+              <item name="南京途牛国际旅行社有限公司" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="南京途牛国际旅行社有限公司" type="b2602c69:ProjectViewProjectNode" />
+              <item name="南京途牛国际旅行社有限公司" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="南京途牛国际旅行社有限公司" type="b2602c69:ProjectViewProjectNode" />
+              <item name="南京途牛国际旅行社有限公司" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="南京途牛国际旅行社有限公司" type="b2602c69:ProjectViewProjectNode" />
+              <item name="南京途牛国际旅行社有限公司" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="南京途牛国际旅行社有限公司" type="b2602c69:ProjectViewProjectNode" />
+              <item name="南京途牛国际旅行社有限公司" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="南京途牛国际旅行社有限公司" type="b2602c69:ProjectViewProjectNode" />
+              <item name="南京途牛国际旅行社有限公司" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="tianjia" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="南京途牛国际旅行社有限公司" type="b2602c69:ProjectViewProjectNode" />
+              <item name="南京途牛国际旅行社有限公司" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="南京途牛国际旅行社有限公司" type="b2602c69:ProjectViewProjectNode" />
+              <item name="南京途牛国际旅行社有限公司" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="register_js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="南京途牛国际旅行社有限公司" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="F:/androidSDK" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\作业\Ide\南京途牛国际旅行社有限公司\web\images\tour_image\balidao" />
+      <recent name="F:\作业\Ide\南京途牛国际旅行社有限公司\web\js" />
+      <recent name="F:\作业\Ide\南京途牛国际旅行社有限公司\web\pay" />
+      <recent name="F:\作业\Ide\南京途牛国际旅行社有限公司\web\images\homepage_image\Banner" />
+      <recent name="F:\作业\Ide\南京途牛国际旅行社有限公司\web\images\tour_image\util" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="entity" />
+      <recent name="Dao.Impl" />
+      <recent name="Dao" />
+      <recent name="controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\作业\Ide\南京途牛国际旅行社有限公司\web\images\tianjia" />
+      <recent name="F:\作业\Ide\南京途牛国际旅行社有限公司\web\images" />
+      <recent name="F:\作业\Ide\南京途牛国际旅行社有限公司\web\images\Order_xiangxi_images" />
+      <recent name="F:\作业\Ide\南京途牛国际旅行社有限公司\web\js\Order_xiangxi_js" />
+      <recent name="F:\作业\Ide\南京途牛国际旅行社有限公司\web\css\Order_xiangxi_css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Unnamed">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="servlet.Demo" />
+      <module name="南京途牛国际旅行社有限公司" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="servlet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.6" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="update-resources" />
+      <deployment>
+        <artifact name="南京途牛国际旅行社有限公司:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_南京途牛国际旅行社有限公司" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="28389" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="南京途牛国际旅行社有限公司:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="homepage.html" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.6" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/homepage.html" />
+      <deployment>
+        <artifact name="南京途牛国际旅行社有限公司:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="homepage_html_南京途牛国际旅行社有限公司" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="南京途牛国际旅行社有限公司:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Unnamed" />
+      <item itemvalue="Tomcat Server.homepage.html" />
+      <item itemvalue="Application.Demo" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Tomcat Server.homepage.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f39a3f7c-d42b-48d2-93f0-37ade5e75fa3" name="Default" comment="" />
+      <created>1534928885000</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534928885000</updated>
+      <workItem from="1534928890096" duration="4115000" />
+      <workItem from="1535353660856" duration="9955000" />
+      <workItem from="1539150684940" duration="17464000" />
+      <workItem from="1539216372232" duration="804000" />
+      <workItem from="1539217519113" duration="19361000" />
+      <workItem from="1539251143277" duration="7036000" />
+      <workItem from="1539265127317" duration="7547000" />
+      <workItem from="1539302170058" duration="17956000" />
+      <workItem from="1539328726598" duration="13618000" />
+      <workItem from="1539392339101" duration="679000" />
+      <workItem from="1539396891612" duration="3095000" />
+      <workItem from="1539564257517" duration="534000" />
+      <workItem from="1539581193217" duration="2669000" />
+      <workItem from="1539649893372" duration="28000" />
+      <workItem from="1540170803445" duration="606000" />
+      <workItem from="1540187559958" duration="11185000" />
+      <workItem from="1540254067255" duration="11733000" />
+      <workItem from="1540269460798" duration="840000" />
+      <workItem from="1540358713079" duration="6484000" />
+      <workItem from="1540368945311" duration="11362000" />
+      <workItem from="1540429293139" duration="6144000" />
+      <workItem from="1540445666455" duration="6251000" />
+      <workItem from="1540452962984" duration="577000" />
+      <workItem from="1540453767662" duration="9005000" />
+      <workItem from="1540773853263" duration="6969000" />
+      <workItem from="1540791411722" duration="14530000" />
+      <workItem from="1540859841082" duration="3402000" />
+      <workItem from="1540876347809" duration="16691000" />
+      <workItem from="1540946771632" duration="3684000" />
+      <workItem from="1540963088005" duration="5988000" />
+      <workItem from="1540969516001" duration="4865000" />
+      <workItem from="1541003020819" duration="19000" />
+      <workItem from="1541036183662" duration="843000" />
+      <workItem from="1541121782691" duration="11052000" />
+      <workItem from="1541141312440" duration="6880000" />
+      <workItem from="1541148434536" duration="3748000" />
+      <workItem from="1541333712038" duration="8977000" />
+      <workItem from="1541374572258" duration="9673000" />
+      <workItem from="1541386311504" duration="2403000" />
+      <workItem from="1541396763979" duration="15114000" />
+      <workItem from="1541500334194" duration="9396000" />
+      <workItem from="1541551134089" duration="12001000" />
+      <workItem from="1541567067326" duration="17186000" />
+      <workItem from="1541637270958" duration="9196000" />
+      <workItem from="1541671587661" duration="1868000" />
+      <workItem from="1541722694381" duration="13781000" />
+      <workItem from="1541744524984" duration="4219000" />
+      <workItem from="1541832610828" duration="3342000" />
+      <workItem from="1541840711732" duration="20000" />
+      <workItem from="1541933726793" duration="2113000" />
+      <workItem from="1541946456013" duration="3330000" />
+      <workItem from="1541983507959" duration="6099000" />
+      <workItem from="1542021015227" duration="1589000" />
+      <workItem from="1542156183112" duration="2681000" />
+      <workItem from="1542163145795" duration="8117000" />
+      <workItem from="1542261596874" duration="5394000" />
+      <workItem from="1542327781910" duration="24583000" />
+      <workItem from="1542391679528" duration="28551000" />
+      <workItem from="1542442292533" duration="940000" />
+      <workItem from="1542528048922" duration="1397000" />
+      <workItem from="1542548331536" duration="4510000" />
+      <workItem from="1542568162734" duration="3543000" />
+      <workItem from="1542597960223" duration="1394000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="449136000" />
+  </component>
+  <component name="TodoView" selected-index="2">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="60" y="-7" width="1483" height="878" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5003509" side_tool="true" weight="0.32872927" />
+      <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.49964914" weight="0.32872927" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="1" />
+      <window_info anchor="right" id="Database" order="1" weight="0.21122807" />
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.24982457" />
+      <window_info id="UI Designer" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.36740333" />
+      <window_info anchor="bottom" id="TODO" order="14" sideWeight="0.49964914" weight="0.32872927" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32872927" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4979021" weight="0.0" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32872927" />
+      <window_info anchor="bottom" id="Database Console" order="0" sideWeight="0.4986014" weight="0.0" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.4949785" visible="true" weight="0.19649123" />
+      <window_info id="Web" order="5" sideWeight="0.5050215" side_tool="true" weight="0.18666667" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32872927" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32872927" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.49964914" weight="0.32872927" />
+      <window_info id="Designer" order="1" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="bottom" id="Database Console" order="0" sideWeight="0.4986014" weight="0.0" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4979021" weight="0.06413994" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.24982457" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32872927" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5003509" side_tool="true" weight="0.32872927" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32872927" />
+      <window_info anchor="bottom" id="TODO" order="14" sideWeight="0.49964914" weight="0.32872927" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.4949785" visible="true" weight="0.18497519" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32872927" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="right" id="Database" order="1" weight="0.21261516" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info id="Web" order="5" sideWeight="0.5050215" side_tool="true" weight="0.18666667" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32872927" />
+      <window_info active="true" anchor="bottom" id="Debug" order="4" visible="true" weight="0.32944608" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/servlet/Servlet.java</url>
+          <line>110</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Dao/Impl/OrderDaoImpl.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/servlet/Servlet.java</url>
+          <line>123</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="65" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="((NumberFormatException)e).stackTrace" custom="java.lang.NumberFormatException" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/js/Order_xiangxi_js/zeus.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/Order_xiangxi_js/usercenter_list.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Dao/OrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ec3ad6a2-afbf-4020-9eba-9d2a23ba32f1/console_10.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="41" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" selection-start-line="11" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://ec3ad6a2-afbf-4020-9eba-9d2a23ba32f1/schema/tuniu/table/users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Dao/Impl/UsersDaoimpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="122" column="34" lean-forward="true" selection-start-line="122" selection-start-column="34" selection-end-line="122" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ec3ad6a2-afbf-4020-9eba-9d2a23ba32f1/console_12.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Settlement.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2825">
+          <caret line="144" column="52" selection-start-line="144" selection-start-column="43" selection-end-line="144" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/util/selectSession.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="43" column="32" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/Impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Dao/Impl/OrderDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://ec3ad6a2-afbf-4020-9eba-9d2a23ba32f1/schema/tuniu/table/excursion">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ec3ad6a2-afbf-4020-9eba-9d2a23ba32f1/console_11.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="273" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/geren_js/geren_js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="42" column="132" selection-start-line="42" selection-start-column="130" selection-end-line="42" selection-end-column="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/Order_xiangxi_js/Order_js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/PwdReset_js/pwd_js.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/PwdReset_js/pwdReset_js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/Ran/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/register_js/register.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/tour_js/tour_js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://ec3ad6a2-afbf-4020-9eba-9d2a23ba32f1/schema/tuniu/table/index_banner">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Mylvtu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4108">
+          <caret line="158" column="60" selection-start-line="158" selection-start-column="60" selection-end-line="158" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/dingdan_xiangxi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4628">
+          <caret line="178" column="60" selection-start-line="178" selection-start-column="60" selection-end-line="178" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/_war_exploded/Index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="77" column="24" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Dao/BuysDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/BuysService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/Impl/BuysServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/alipay/config/AlipayConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1742">
+          <caret line="83" column="38" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://ec3ad6a2-afbf-4020-9eba-9d2a23ba32f1/schema/tuniu/table/buys_image">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/Buys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/homepage_js/index_js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="89" column="71" selection-start-line="89" selection-start-column="71" selection-end-line="89" selection-end-column="71" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#a#0;n#li#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#1;n#div#0;n#li#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#div#1;n#div#0;n#li#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#2;n#!!top" expanded="true" />
+            <element signature="n#!!block;n#mouseen#0" />
+            <element signature="n#!!block;n#initBanner#0" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#li#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/Settlement_js/Settlement_js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="1426" column="18" lean-forward="true" selection-start-line="1426" selection-start-column="18" selection-end-line="1426" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/Servlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="77" column="22" lean-forward="true" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
+          <folding>
+            <marker date="1542435320893" expanded="true" signature="2074:6072" ph="..." />
+            <marker date="1542435320893" expanded="true" signature="2983:5553" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/tour.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="88" column="41" selection-start-line="88" selection-start-column="41" selection-end-line="88" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/BaseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/Dx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pay/alipay.trade.page.pay.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Dao/Impl/BuysDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ZhiFu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="15908" column="17" selection-start-line="15908" selection-start-column="17" selection-end-line="15908" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/register_js/register_js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="1008" column="44" lean-forward="true" selection-start-line="1008" selection-start-column="44" selection-end-line="1008" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/tianjia/01.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="das://ec3ad6a2-afbf-4020-9eba-9d2a23ba32f1/schema/tuniu/table/buys">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://ec3ad6a2-afbf-4020-9eba-9d2a23ba32f1/schema/tuniu/table/order">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7062">
+          <caret line="14310" column="43" lean-forward="true" selection-start-line="14310" selection-start-column="43" selection-end-line="14310" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+            <element signature="n#a#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#4;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#5;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#6;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#7;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>南京途牛国际旅行社有限公司:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>南京途牛国际旅行社有限公司</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

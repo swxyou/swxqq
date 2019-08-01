@@ -1,0 +1,321 @@
+@charset "UTF-8";
+.retail-channel {
+    font-family: Microsoft Yahei, 微软雅黑, verdana
+}
+
+.retail-channel .banner-ctn {
+    height: 480px;
+    margin: 0 auto
+}
+
+.retail-channel .slide-container {
+    height: 480px;
+    position: relative;
+    z-index: 1
+}
+
+.retail-channel .slide-container .rslides {
+    position: relative;
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    margin: 0
+}
+
+.retail-channel .slide-container .rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 480px;
+    left: 0;
+    top: 0;
+    overflow: visible
+}
+
+.retail-channel .slide-container .rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left
+}
+
+.retail-channel .slide-container .rslides a {
+    display: block;
+    height: 480px;
+    background-position: 50%;
+    background-repeat: no-repeat
+}
+
+.retail-channel .slide-container .next, .retail-channel .slide-container .prev {
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 205px;
+    margin-left: -595px;
+    width: 70px;
+    height: 70px;
+    background-image: url(https://m2.tuniucdn.com/fb2/t1/G5/M00/5A/E6/Cii-s1p5W3SIZRrqAAAQpMbSNYYAADKPgEkbZ8AABC8516.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 2;
+    cursor: pointer;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="https://m2.tuniucdn.com/fb2/t1/G5/M00/5A/E6/Cii-s1p5W3SIZRrqAAAQpMbSNYYAADKPgEkbZ8AABC8516.png", sizingMethod="scale")
+}
+
+.retail-channel .slide-container .next {
+    margin-left: 525px;
+    background-image: url(https://m1.tuniucdn.com/fb2/t1/G5/M00/5A/E6/Cii-slp5W3WIdkxoAAAQMQHmaKYAADKPgEkflsAABBJ515.png);
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="https://m1.tuniucdn.com/fb2/t1/G5/M00/5A/E6/Cii-slp5W3WIdkxoAAAQMQHmaKYAADKPgEkflsAABBJ515.png", sizingMethod="scale")
+}
+
+.retail-channel .slide-container:hover .next, .retail-channel .slide-container:hover .prev {
+    display: block
+}
+
+.retail-channel .retail-channel-up {
+    background: #fff;
+    padding-bottom: 60px
+}
+
+.retail-channel .retail-channel-bottom {
+    background: #f2f2f2;
+    padding-bottom: 80px
+}
+
+.retail-channel .retail-channel-inner {
+    position: relative;
+    width: 1192px;
+    margin: 0 auto
+}
+
+.retail-channel .hot-recommend {
+    margin: 20px 0 0;
+    height: 230px;
+    margin-right: -20px
+}
+
+.retail-channel .hot-recommend a {
+    position: relative;
+    float: left;
+    width: 384px;
+    height: 230px;
+    margin-right: 20px
+}
+
+.retail-channel .hot-recommend a img {
+    display: block;
+    width: 100%;
+    height: 100%
+}
+
+.retail-channel .category-floor-head {
+    position: relative;
+    padding: 60px 0 30px;
+    height: 36px
+}
+
+.retail-channel .category-floor-head h2 {
+    font-size: 32px;
+    color: #333;
+    line-height: 36px
+}
+
+.retail-channel .category-floor-head .links {
+    position: absolute;
+    right: 0;
+    top: 66px;
+    height: 24px;
+    line-height: 24px
+}
+
+.retail-channel .category-floor-head .links a {
+    float: left;
+    margin-left: 20px;
+    font-size: 18px;
+    color: #333
+}
+
+.retail-channel .category-floor-head .links a:hover {
+    color: #f80
+}
+
+.retail-channel .category-floor-head .links .more {
+    position: relative;
+    margin-left: 30px;
+    padding-right: 27px;
+    color: #666
+}
+
+.retail-channel .category-floor-head .links .more i {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    right: 0;
+    top: 4px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url(https://m.tuniucdn.com/fb2/t1/G5/M00/50/EE/Cii-s1p5W3SIVpM_AAAEpqgA5ycAAC9eQP_-0IAAAS-334.png);
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="https://m.tuniucdn.com/fb2/t1/G5/M00/50/EE/Cii-s1p5W3SIVpM_AAAEpqgA5ycAAC9eQP_-0IAAAS-334.png", sizingMethod="scale")
+}
+
+.retail-channel .category-floor-content a {
+    -webkit-transition: all .4s;
+    transition: all .4s
+}
+
+.retail-channel .category-floor-content a:hover {
+    -webkit-box-shadow: 0 3px 10px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, .1);
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px)
+}
+
+.retail-channel .category-floor-content.category-floor-pic-3 {
+    height: 325px;
+    margin-right: -20px
+}
+
+.retail-channel .category-floor-content.category-floor-pic-3 a {
+    position: relative;
+    float: left;
+    width: 384px;
+    height: 325px;
+    margin-right: 20px
+}
+
+.retail-channel .category-floor-content.category-floor-pic-3 a img {
+    display: block;
+    width: 100%;
+    height: 100%
+}
+
+.retail-channel .category-floor-content.category-floor-pic-4 {
+    height: 400px;
+    margin-right: -20px
+}
+
+.retail-channel .category-floor-content.category-floor-pic-4 a {
+    position: relative;
+    float: left;
+    width: 283px;
+    height: 400px;
+    margin-right: 20px
+}
+
+.retail-channel .category-floor-content.category-floor-pic-4 a img {
+    display: block;
+    width: 100%;
+    height: 100%
+}
+
+.retail-channel .category-floor-content.category-floor-product {
+    height: 400px;
+    margin-right: -20px
+}
+
+.retail-channel .category-floor-content.category-floor-product a {
+    position: relative;
+    float: left;
+    width: 203px;
+    height: 300px;
+    padding: 50px 40px;
+    margin-right: 20px;
+    background: #fff
+}
+
+.retail-channel .category-floor-content.category-floor-product a .pic-ctn {
+    margin-bottom: 26px
+}
+
+.retail-channel .category-floor-content.category-floor-product a .pic-ctn img {
+    display: block;
+    width: 203px;
+    height: 152px
+}
+
+.retail-channel .category-floor-content.category-floor-product a .title {
+    font-size: 18px;
+    color: #333;
+    line-height: 24px;
+    height: 24px;
+    padding: 20px 0 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center
+}
+
+.retail-channel .category-floor-content.category-floor-product a .sub-title {
+    font-size: 14px;
+    color: #666;
+    line-height: 24px;
+    height: 24px;
+    margin-bottom: 18px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center
+}
+
+.retail-channel .category-floor-content.category-floor-product a .price-ctn {
+    height: 38px;
+    line-height: 38px;
+    text-align: center
+}
+
+.retail-channel .category-floor-content.category-floor-product a .price-ctn .price {
+    font-size: 20px;
+    color: #f60
+}
+
+.retail-channel .category-floor-content.category-floor-product a .price-ctn .price-btn {
+    display: none;
+    background: #f60;
+    border-radius: 38px;
+    width: 144px;
+    height: 38px;
+    color: #fff;
+    font-size: 16px
+}
+
+.retail-channel .category-floor-content.category-floor-product a:hover .price-btn {
+    display: inline-block
+}
+
+.retail-channel .category-floor-content.category-floor-product a:hover .price {
+    display: none
+}
+
+.retail-channel .retail-channel-up .category-floor-content.category-floor-product a {
+    background: #f4f4f4
+}
+
+.retail-channel .retail-channel-up .category-floor-content.category-floor-product a:hover {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, .1)
+}
+
+.retail-channel .retail-channel-up .category-floor-content.category-floor-product a:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px
+}
+
+.retail-channel .retail-channel-up .category-floor-content.category-floor-product a:first-child:before {
+    background: #ffc24a
+}
+
+.retail-channel .retail-channel-up .category-floor-content.category-floor-product a:nth-child(2):before {
+    background: #66bbf6
+}
+
+.retail-channel .retail-channel-up .category-floor-content.category-floor-product a:nth-child(3):before {
+    background: #72e13a
+}
+
+.retail-channel .retail-channel-up .category-floor-content.category-floor-product a:last-child:before {
+    background: #fc6daf
+}
